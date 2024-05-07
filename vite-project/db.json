@@ -1,0 +1,324 @@
+{
+    "property": [
+        {
+          "id":"1",
+          "name": "Frontera Apartments",
+          "price": 300000.00,
+          "image": "assets/Apartments/Apartment2.jpeg",
+          "description": "Luxurious Apartment",
+          "category": "Apartments",
+          "location":"New York",
+          "bedrooms": 3
+        },
+        {
+            "id":"2",
+            "name": " Creekside Apartments",
+            "price": 550000.00,
+            "image": "assets/Apartments/Apartment6.jpeg",
+            "description": "Luxurious Apartment",
+            "category": "Apartments",
+            "location":"OysterBay",
+            "bedrooms": 4
+        },
+        {
+            "id":"3",
+            "name": " Royal Apartments",
+            "price": 200000.00,
+            "image": "assets/Apartments/Apartment3.jpeg",
+            "description": "Luxurious Apartment",
+            "category": "Apartments",
+            "location":"Babylon",
+            "bedrooms": 2
+        },
+        {
+            "id":"4",
+            "name": " Urban Apartments",
+            "price": 650000.00,
+            "image": "assets/Apartments/Apartment12.jpeg",
+            "description": "Luxurious Apartment",
+            "category": "Apartments",
+            "location":"Greece",
+            "bedrooms": 1
+        },
+        {
+            "id":"5",
+            "name": " Luxe Apartments",
+            "price": 250000.00,
+            "image": "assets/Apartments/Apartment5.jpeg",
+            "description": "Luxurious Apartment",
+            "category": "Apartments",
+            "location":"Albany",
+            "bedrooms": 1
+        },
+        {
+            "id":"6",
+            "name": " Oasis Apartments",
+            "price": 350000.00,
+            "image": "assets/Apartments/Apartment10.jpeg",
+            "description": "Luxurious Apartment",
+            "category": "Apartments",
+            "location":"New York",
+            "bedrooms": 2
+        },
+        {
+            "id":"7",
+            "name": " Serenity Apartments",
+            "price": 555000.00,
+            "image": "assets/Apartments/Apartment9.jpeg",
+            "description": "Luxurious Apartment",
+            "category": "Apartments",
+            "location":"OysterBay",
+            "bedrooms": 3
+        },
+        {
+            "id":"8",
+            "name": "Legacy Apartments",
+            "price": 450000.00,
+            "image": "assets/Apartments/Apartment11.jpeg",
+            "description": "Luxurious Apartment",
+            "category": "Apartments",
+            "location":"Greece",
+            "bedrooms": 2
+        },
+        {
+            "id":"9",
+            "name": "Waterfront Villa",
+            "price": 700000.00,
+            "image": "assets/Villas/Villa7.jpeg",
+            "description": "Luxurious Villa",
+            "category": "Villas",
+            "location":"Yonkers",
+            "bedrooms": 2
+        },
+        {
+            "id":"10",
+            "name": "Mayfair Villa",
+            "price": 700000.00,
+            "image": "assets/Villas/Villa6.jpeg",
+            "description": "Luxurious Villa",
+            "category": "Villas",
+            "location":"Brookhaven",
+            "bedrooms": 4
+        },
+        {
+            "id":"11",
+            "name": "Silver Villa",
+            "price": 720000.00,
+            "image": "assets/Villas/Villa4.jpeg",
+            "description": "Luxurious Villa",
+            "category": "Villas",
+            "location":"Babylon",
+            "bedrooms": 6
+        },
+        {
+            "id":"12",
+            "name": "Villa Rosa Villa",
+            "price": 700000.00,
+            "image": "assets/Villas/Villa9.jpeg",
+            "description": "Luxurious Villa",
+            "category": "Villas",
+            "location":"Greece",
+            "bedrooms": 5
+        },
+        {
+            "id":"13",
+            "name": "Paradise Villa",
+            "price": 600000.00,
+            "image": "assets/Villas/Villa5.jpeg",
+            "description": "Luxurious Villa",
+            "category": "Villas",
+            "location":"Albany",
+            "bedrooms": 6
+        },
+        {
+            "id":"14",
+            "name": "Sunset Villa",
+            "price": 750000.00,
+            "image": "assets/Villas/Villa1.jpeg",
+            "description": "Luxurious Villa",
+            "category": "Villas",
+            "location":"New York",
+            "bedrooms": 4
+        },
+        {
+            "id":"15",
+            "name": "The Mirage Villa",
+            "price": 700000.00,
+            "image": "assets/Villas/Villa3.jpeg",
+            "description": "Luxurious Villa",
+            "category": "Villas",
+            "location":"OysterBay",
+            "bedrooms": 4
+        },
+        {
+            "id":"16",
+            "name": "The Billionaire Villa",
+            "price": 900000.00,
+            "image": "assets/Villas/Villa1.jpeg",
+            "description": "Luxurious Villa",
+            "category": "Villas",
+            "location":"Greece",
+            "bedrooms": 5
+        },
+        {
+            "id":"17",
+            "name": "Sapphire Condo",
+            "price": 1000000.00,
+            "image": "assets/Condos/Condo1.jpeg",
+            "description": "Luxurious Villa",
+            "category": "Condos",
+            "location":"New York",
+            "bedrooms": 5
+        },
+        {
+            "id":"18",
+            "name": "Posh Condo",
+            "price": 1200000.00,
+            "image": "assets/Condos/Condo2.jpeg",
+            "description": "Luxurious Condo,",
+            "category": "Condos",
+            "location":"OysterBay",
+            "bedrooms": 5
+        },
+        {
+            "id":"19",
+            "name": "Brickell Condo",
+            "price": 1500000.00,
+            "image": "assets/Condos/Condo3.jpeg",
+            "description": "Luxurious Condo,",
+            "category": "Condos",
+            "location":"Babylon",
+            "bedrooms": 6
+        },
+        {
+            "id":"20",
+            "name": "MidTown Condo",
+            "price": 1000000.00,
+            "image": "assets/Condos/Condo4.jpeg",
+            "description": "Luxurious Condo,",
+            "category": "Condos",
+            "location":"Greece",
+            "bedrooms": 5
+        },
+        {
+            "id":"21",
+            "name": "Craydon Condo",
+            "price": 1350000.00,
+            "image": "assets/Condos/Condo5.jpeg",
+            "description": "Luxurious Condo,",
+            "category": "Condos",
+            "location":"Albany",
+            "bedrooms": 6
+        },
+        {
+            "id":"22",
+            "name": "Galaxy Condo",
+            "price": 1400000.00,
+            "image": "assets/Condos/Condo6.jpeg",
+            "description": "Luxurious Condo,",
+            "category": "Condos",
+            "location":"New York",
+            "bedrooms": 4
+        },
+        {
+            "id":"23",
+            "name": "Palms Condo",
+            "price": 1005000.00,
+            "image": "assets/Condos/Condo7.jpeg",
+            "description": "Luxurious Condo,",
+            "category": "Condos",
+            "location":"Greece",
+            "bedrooms": 4
+        },
+        {
+            "id":"24",
+            "name": " Condo",
+            "price": 1080000.00,
+            "image": "assets/Condos/Condo8.jpeg",
+            "description": "Luxurious Condo,",
+            "category": "Condos",
+            "location":"Greece",
+            "bedrooms": 3
+        },
+        {
+            "id":"25",
+            "name": " Wilis Tower",
+            "price": 2080000.00,
+            "image": "assets/Commercials/Commercial1.jpeg",
+            "description": "Shops",
+            "category": "Retail",
+            "location":"New York",
+            "floor":"15th"
+        },
+        {
+            "id":"26",
+            "name": " TwinBird Tower",
+            "price": 2050000.00,
+            "image": "assets/Commercials/Commercial2.jpeg",
+            "description": "Restaurant",
+            "category": "Retail",
+            "location":"OysterBay",
+            "floor":"6th"
+        },
+        {
+            "id":"27",
+            "name": " Elite ",
+            "price": 2500000.00,
+            "image": "assets/Commercials/Commercial3.jpeg",
+            "description": "Universty",
+            "category": "School",
+            "location":"Babylon",
+            "floor":"18th"
+        },
+        {
+            "id":"28",
+            "name": " Wuhan Tower",
+            "price": 1500000.00,
+            "image": "assets/Commercials/Commercial4.jpeg",
+            "description": "Working spaces",
+            "category": "Offices",
+            "location":"New York",
+            "floor":"8th"
+        },
+        {
+            "id":"29",
+            "name": " Central Plaza",
+            "price": 1800000.00,
+            "image": "assets/Commercials/Commercial5.jpeg",
+            "description": "Eyesight clinic ",
+            "category": "Hospital",
+            "location":"Brookhaven",
+            "floor":"2"
+        },
+        {
+            "id":"30",
+            "name": " Almas Tower",
+            "price": 200000.00,
+            "image": "assets/Commercials/Commercial6.jpeg",
+            "description": "Working spaces",
+            "category": "Library",
+            "location":"Yonkers",
+            "floor":"6th"
+        },
+        {
+            "id":"31",
+            "name": " Dalian Tower",
+            "price": 1400000.00,
+            "image": "assets/Commercials/Commercial7.jpeg",
+            "description": "Art exhibition",
+            "category": "ArtGallery",
+            "location":"OysterBay",
+            "floor":"20th"
+        },
+        {
+            "id":"32",
+            "name": " Pinnacle Tower",
+            "price": 1500000.00,
+            "image": "assets/Commercials/Commercial8.jpeg",
+            "description": "Working spaces",
+            "category": "Callcenter",
+            "location":"Greece",
+            "floor":"10th"
+        }
+    ]   
+}    
