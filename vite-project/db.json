@@ -173,7 +173,7 @@
         {
             "id":"18",
             "name": "Posh Condo",
-            "price": 1200000.00,
+            "price": 32000.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSK6uMctYv7RJU5TGL3CQ_48p79qNSWVXuiAFbAKGhTcnSWesQt",
             "description": "Chic urban condo in a trendy neighborhood.",
             "category": "Condos",
@@ -246,7 +246,7 @@
             "price": 3800.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSaFsN7PQFph4N67pPiOUffVTuCWYIbvnkabOYMj1J6nEgDChsV",
             "description": "Shops",
-            "category": "Retail",
+            "category": "Commercials",
             "location":"New York",
             "floor":"10th"
         },
@@ -256,7 +256,7 @@
             "price":3500.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSUQhqFVrQ7BHyVjniQmYTirAw5aVi7xc8Npfs9P0Dx5wFiS5Iu",
             "description": "Restaurant",
-            "category": "Retail",
+            "category": "Commercials",
             "location":"OysterBay",
             "floor":"6th"
         },
@@ -266,7 +266,7 @@
             "price": 3800.00,
             "image":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQzAyqfKjId5-De_dw2ygO7KPNXiRYu3UoSVbKDCvOwPixQ7Rlk",
             "description": "Universty",
-            "category": "School",
+            "category": "Commercials",
             "location":"Babylon",
             "floor":"18th"
         },
@@ -276,7 +276,7 @@
             "price": 4000.00,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdml2pqR_UTBKg1QExFRWQN4J6bqC85zMxwvrXkKLn2ji6wImD",
             "description": "Working spaces",
-            "category": "Offices",
+            "category": "Commercials",
             "location":"New York",
             "floor":"8th"
         },
@@ -286,7 +286,7 @@
             "price": 4200.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRRWi3OvMjab97ISFT1SxX6WIr3MEFrsNFYDlPZVTj_j9-jU5l_",
             "description": "Eyesight clinic ",
-            "category": "Hospital",
+            "category": "Commercials",
             "location":"Brookhaven",
             "floor":"2"
         },
@@ -296,17 +296,17 @@
             "price": 4500.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSvt-6elxFEIPIrx_R_wkxht82ntGtCXmWt27sas2vLAlAxXgjs",
             "description": "Working spaces",
-            "category": "Library",
+            "category": "Commercials",
             "location":"Yonkers",
             "floor":"8th"
         },
         {
             "id":"31",
             "name": " Dalian Tower",
-            "price": 1400000.00,
+            "price": 4800.00,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHziacrxrKaNkJfzYghUKpdrnqRCh7iqLc5uPy4kEV_QWuVPDe",
             "description": "Art exhibition",
-            "category": "ArtGallery", 
+            "category": "Commercials", 
             "location":"OysterBay",
             "floor":"20th"
         },
@@ -316,9 +316,9 @@
             "price": 4200.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTgG7WXCxGWJvTuYFdsswjNmr17BE7iqElmkP3WPGg8TmLk6_qm",
             "description": "Working spaces",
-            "category": "Callcenter",
+            "category": "Commercials",
             "location":"Greece",
             "floor":"12th"
         }
     ]   
-}    
+}
