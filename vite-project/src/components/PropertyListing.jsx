@@ -2,7 +2,7 @@ import React from "react";
 
 function PropertyListing({ properties }) {
   if (!properties || properties.length === 0) {
-    return <div>No properties found</div>;
+    return <div>Loading ...</div>;
   }
 
   return (
