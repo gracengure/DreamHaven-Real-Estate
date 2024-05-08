@@ -25,10 +25,10 @@ function NavBar() {
     <FaCaretDown   onClick={toggleDropdown} />
     {isDropdownOpen && (
             <ul className="dropdown-content">
-              <li><a href="#">Apartments</a></li>
-              <li><a href="#">Villas</a></li>
-              <li><a href="#">Condos</a></li>
-              <li><a href="#">Commercials</a></li>
+              <li><a >Apartments</a></li>
+              <li><a >Villas</a></li>
+              <li><a >Condos</a></li>
+              <li><a >Tower</a></li>
             </ul>
           )}
   </li>

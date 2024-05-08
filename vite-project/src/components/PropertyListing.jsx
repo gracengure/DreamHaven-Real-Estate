@@ -4,12 +4,12 @@ function PropertyListing({ properties }) {
   if (!properties || properties.length === 0) {
     return <div>Loading ...</div>;
   }
-
+  
   return (
     <div>
       <div className="container">
         {properties.map((property) => (
-          <div key={property.id}className="card" >
+          <div key={property.id} className="card">
             <h2 className="property-name">{property.name}</h2>
             <div className="property-details">
               <img
