@@ -306,7 +306,7 @@
             "price": 1400000.00,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHziacrxrKaNkJfzYghUKpdrnqRCh7iqLc5uPy4kEV_QWuVPDe",
             "description": "Art exhibition",
-            "category": "ArtGallery",
+            "category": "ArtGallery", 
             "location":"OysterBay",
             "floor":"20th"
         },

@@ -9,8 +9,8 @@ function PropertyListing({ properties }) {
     <div>
       <div className="container">
         {properties.map((property) => (
-          <div key={property.id} className="card">
-            <h2>{property.name}</h2>
+          <div key={property.id}className="card" >
+            <h2 className="property-name">{property.name}</h2>
             <div className="property-details">
               <img
                 src={property.image}
