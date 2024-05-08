@@ -1,9 +1,9 @@
-import React from 'react'
-import NavBar from "./components/NavBar"
-import HomePage from "./components/HomePage"
-import PropertyListing from "./components/PropertyListing"
-import Testimonials from "./components/Testimonials"
-import Contacts from "./components/Contacts"
+import React from 'react';
+import NavBar from "./components/NavBar";
+import HomePage from "./components/HomePage";
+import PropertyListing from "./components/PropertyListing";
+import Contacts from "./components/Contacts";
+import TestimonialsData from './components/TestimonialData';
 
 function App() {
   return (
@@ -11,11 +11,11 @@ function App() {
       <NavBar />
       <HomePage/>
       <PropertyListing/>
-      <Testimonials/>
+      
+      <TestimonialsData />
       <Contacts/>
-
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
