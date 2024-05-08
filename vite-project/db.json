@@ -65,7 +65,7 @@
             "name": " Serenity Apartments",
             "price": 555.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQPFWa1UDfaWl2Ntwi0FPua4JcHkU6PR9t4rHnNIsmLPIfxPeA4",
-            "description": "",
+            "description": "Stylish 3-bedroom with skyline views",
             "category": "Apartments",
             "location":"OysterBay",
             "bedrooms": 3
@@ -75,7 +75,7 @@
             "name": "Legacy Apartments",
             "price": 450.00,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEO7FDua6uiF9AUz08E6wTfH2E1FAwkbrx8Nzcq9zi1DdYtG2e",
-            "description": "Luxurious Apartment",
+            "description": "Luxury 2-bedroom with concierge service",
             "category": "Apartments",
             "location":"Greece",
             "bedrooms": 2
