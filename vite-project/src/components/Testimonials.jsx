@@ -17,14 +17,15 @@ function Testimonials({ testimonials }) {
 
   return (
     <div className="testimonials">
-      <h2>Testimonials</h2>
+      <h2>Testimonials carousel - cards comments</h2>
       <div className="testimonial">
-        <p>{testimonials[currentTestimonialIndex].name}</p>
-        <p>{testimonials[currentTestimonialIndex].text}</p>
+        <div></div>
+        <h1>{testimonials[currentTestimonialIndex].name}</h1>
         <img
           src={testimonials[currentTestimonialIndex].image}
           alt={testimonials[currentTestimonialIndex].name}
         />
+        <p>{testimonials[currentTestimonialIndex].text}</p>
       </div>
       <div>
         <button onClick={handlePrev}>Prev</button>

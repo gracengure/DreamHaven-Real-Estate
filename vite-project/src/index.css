@@ -79,3 +79,9 @@
   height: 100vh;
   object-fit: cover;
 }
+img{
+  height: 500px;
+}
+.testimonials{
+  border: solid;
+}
