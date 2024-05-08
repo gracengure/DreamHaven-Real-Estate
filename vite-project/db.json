@@ -248,7 +248,7 @@
             "description": "Shops",
             "category": "Retail",
             "location":"New York",
-            "floor":"15th"
+            "floor":"10th"
         },
         {
             "id":"26",
@@ -298,7 +298,7 @@
             "description": "Working spaces",
             "category": "Library",
             "location":"Yonkers",
-            "floor":"6th"
+            "floor":"8th"
         },
         {
             "id":"31",
@@ -318,7 +318,7 @@
             "description": "Working spaces",
             "category": "Callcenter",
             "location":"Greece",
-            "floor":"10th"
+            "floor":"12th"
         }
     ]   
 }    
