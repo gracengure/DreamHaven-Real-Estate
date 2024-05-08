@@ -71,19 +71,80 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.home{
-  width: 100%;
-  height: 100vh;
-}
+
 .home-img{
   width: 100%;
   height: 100vh;
   object-fit: cover;
 }
+.container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
+  gap: 25px;
+  margin-left: 140px;
+  margin-right: 100px;
+  
+  
+ }
+ .card {
+  object-fit: contain;
+  width: 250px;
+ border: 1px solid grey;
+ height: 330px;
+ border-radius: 10px;
+ 
+}
+.property-img{
+  width: 250px;
+  height: 200px;
+  object-fit:cover;
+  padding-top: 10px;
+  padding-left: 2px;
+  padding-right: 4px;
+}
+.property-details{
+  text-align: center;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+.search-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.city-input {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.search-btn {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(250, 212, 143); 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
 .testimonials {
   position: relative;
   margin-top: 30px;
-}
+} 
 
 .testimonials h2 {
   font-size: 30px;
@@ -91,7 +152,8 @@
   color: #333333; 
   margin-bottom: 50px; 
   font-weight: bold; 
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Add or keep this line */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+
 }
 
 .testimonial-card {
@@ -101,6 +163,9 @@
   padding: 0 10px;
   border-radius: 20px;
   border: 0;
+  text-align: center;
+  width: 700px;
+  margin-left: 600px;
 }
 
 .testimonial-image {
@@ -127,6 +192,7 @@
 .testimonial-controls {
   text-align: center;
   margin-top: 20px;
+  
 }
 
 .testimonial-controls button {
@@ -146,4 +212,88 @@
 
 .testimonial-controls button:focus {
   outline: none;
+}
+.contact-card{
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow:0 4px 8px rgba(0, 0, 0, 0.1) ;
+}
+
+.contact-card h1 .contact-card h2{
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.contact-form{
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #e8f4f8;
+}
+
+.contact-form form div{
+  margin-bottom: 10px;
+}
+
+.contact-form label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea{
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+} 
+
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-info {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.map-container {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.social-media-links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-media-links > * {
+  font-size: 30px;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.social-media-links > *:hover {
+  color: #0056b3;
 }
