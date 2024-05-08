@@ -40,10 +40,10 @@ function TestimonialsData() {
       },
       {
         id: 6,
-        name: "Boehmer",
+        name: "John Cena",
         text: "We were recommended the Boehmer Team through family friends, & we couldn’t be more grateful that they became our realtors! Both Kelly & Linda were great about guiding us in the right direction for selling our home, & had the personal touch I was wanting when it came to hiring a realtor. They never gave up & were very much in our corner. Kelly was also always responsive whenever we had questions. Five stars!",
         image:
-          "https://static.wikia.nocookie.net/snowfall/images/4/43/John_Singleton.jpg/revision/latest/thumbnail/width/360/height/450?cb=20210327221135",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/John_Cena_July_2018.jpg/1200px-John_Cena_July_2018.jpg",
       },
    
   ];
