@@ -173,7 +173,7 @@
         {
             "id":"18",
             "name": "Posh Condo",
-            "price": 1200000.00,
+            "price": 32000.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSK6uMctYv7RJU5TGL3CQ_48p79qNSWVXuiAFbAKGhTcnSWesQt",
             "description": "Chic urban condo in a trendy neighborhood.",
             "category": "Condos",
@@ -303,7 +303,7 @@
         {
             "id":"31",
             "name": " Dalian Tower",
-            "price": 1400000.00,
+            "price": 48000.00,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHziacrxrKaNkJfzYghUKpdrnqRCh7iqLc5uPy4kEV_QWuVPDe",
             "description": "Art exhibition",
             "category": "ArtGallery", 
@@ -321,4 +321,4 @@
             "floor":"12th"
         }
     ]   
-}    
+}
