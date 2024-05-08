@@ -33,7 +33,7 @@ function TestimonialsData() {
       },
       {
         id: 5,
-        name: "Yeatman ",
+        name: "Yeatmaan ",
         text: "The Yeatman Group was a pleasure to work with! This was our first time building a home and they made the experience fun and as stress free as possible! Even after being in the house already for almost a year, I still see and hear from Kyle and his team, checking in on how we are doing! A great team to work with! – JE",
         image:
           "https://s.yimg.com/ny/api/res/1.2/UMIoMeSwM1DHP28XrGFHgw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQzNA--/https://media.zenfs.com/en/tvline.com/02453780281102fac3749b5995efbb31",
