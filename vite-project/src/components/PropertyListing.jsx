@@ -1,4 +1,4 @@
-import React from "react";
+
 
 function PropertyListing({ properties }) {
   if (!properties || properties.length === 0) {
@@ -19,7 +19,7 @@ function PropertyListing({ properties }) {
               />
               <p>{property.description} </p>
               <p>
-{property.bedrooms !== undefined ? "Bedroom" : "Floors"}:{" "}
+{property.bedrooms !== undefined ? "Bedroom" : "Floor"}:{" "}
 {property.bedrooms !== undefined
   ? property.bedrooms
   : property.floor}
