@@ -11,6 +11,7 @@ function App() {
       <NavBar />
       <HomePage/>
       <PropertyListing/>
+      
       <TestimonialsData />
       <Contacts/>
     </div>
