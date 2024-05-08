@@ -14,7 +14,7 @@ function Testimonials({ testimonials }) {
       prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1
     );
   };
-
+  
   return (
     <div className="testimonials">
       <h2>Testimonials</h2>
