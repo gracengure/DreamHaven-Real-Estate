@@ -94,7 +94,14 @@
  border: 1px solid grey;
  height: 330px;
  border-radius: 10px;
- 
+ position: relative;
+ overflow: hidden;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  background-color: #f0f0f0;
+}
+.card:hover {
+  transform: scale(1.1); /* Scale the card to 50% of its original size */
+  
 }
 .property-img{
   width: 250px;
