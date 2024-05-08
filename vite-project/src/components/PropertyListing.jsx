@@ -18,7 +18,12 @@ function PropertyListing({ properties }) {
                 className="property-img"
               />
               <p>{property.description} </p>
-              <p> Bedrooms: {property.bedrooms}</p>
+              <p>
+{property.bedrooms !== undefined ? "Bedroom" : "Floors"}:{" "}
+{property.bedrooms !== undefined
+  ? property.bedrooms
+  : property.floor}
+</p>
               <p>Price: ${property.price} </p>
               <p> Location: {property.location}</p>
             </div>
