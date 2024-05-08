@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from "react";
-function PropertyListing() {
-  const [properties, setProperties] = useState([]);
-  useEffect(() => {
-    fetch('http://localhost:3000/property')
-      .then((response) => response.json())
-      .then((data) => setProperties(data));
-  }, []);
-  
+import React from "react";
+
+function PropertyListing({ properties }) {
+  if (!properties || properties.length === 0) {
+    return <div>No properties found</div>;
+  }
+
   return (
     <div>
       <div className="container">
@@ -24,12 +22,11 @@ function PropertyListing() {
               <p>Price: ${property.price} </p>
               <p> Location: {property.location}</p>
             </div>
-
-            {/* Add more details as needed */}
           </div>
         ))}
       </div>
     </div>
   );
 }
+
 export default PropertyListing;
