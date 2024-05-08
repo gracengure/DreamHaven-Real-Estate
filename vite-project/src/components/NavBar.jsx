@@ -1,53 +1,43 @@
 
 
-// NavBar.js
-import React, { useState } from 'react';
+import Logo from "../assets/IMG_20240507_135149.jpg";
 import { FaCaretDown } from 'react-icons/fa';
-import Logo from '../assets/IMG_20240507_135149.jpg';
+import React, { useState } from 'react'
 
-function NavBar({ onPropertyTypeSelect }) {
+
+function NavBar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  const toggleDropdown = () => {
+ 
+  function toggleDropdown  () {
     setIsDropdownOpen(!isDropdownOpen);
   };
-
-  const handlePropertyTypeClick = (type) => {
-    onPropertyTypeSelect(type);
-    setIsDropdownOpen(false); // Close the dropdown
-  };
-
   return (
     <div className="nav-bar">
       <img src={Logo} alt="logo" className="logo-img" />
+
       <ul className="nav-ul">
-        <li>Home</li>
-        <li className="dropdown">
-          Property{' '}
-          <FaCaretDown
-            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            className={isDropdownOpen ? 'active' : ''}
-          />
-          {isDropdownOpen && (
+      <li>
+          Home
+        </li>
+  <li className="dropdown">
+    Property 
+    <FaCaretDown   onClick={toggleDropdown} />
+    {isDropdownOpen && (
             <ul className="dropdown-content">
-              <li onClick={() => handlePropertyTypeClick('Apartments')}>
-                <a href="#">Apartments</a>
-              </li>
-              <li onClick={() => handlePropertyTypeClick('Villas')}>
-                <a href="#">Villas</a>
-              </li>
-              <li onClick={() => handlePropertyTypeClick('Condos')}>
-                <a href="#">Condos</a>
-              </li>
-              <li onClick={() => handlePropertyTypeClick('Commercials')}>
-                <a href="#">Commercials</a>
-              </li>
+              <li><a href="#">Apartments</a></li>
+              <li><a href="#">Villas</a></li>
+              <li><a href="#">Condos</a></li>
+              <li><a href="#">Commercials</a></li>
             </ul>
           )}
-        </li>
-        <li>Testimonials</li>
-        <li>Contacts</li>
-      </ul>
+  </li>
+  <li>Testimonials</li>
+  <li>Contacts</li>
+  
+</ul>
+      
+      
     </div>
   );
 }
