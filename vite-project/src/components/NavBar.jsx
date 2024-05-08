@@ -25,9 +25,9 @@ function NavBar() {
     <FaCaretDown   onClick={toggleDropdown} />
     {isDropdownOpen && (
             <ul className="dropdown-content">
-              <li><a >Apartments</a></li>
-              <li><a >Villas</a></li>
-              <li><a >Condos</a></li>
+              <li><a  href="#apartment">Apartments</a></li>
+              <li><a  href="#villa">Villas</a></li>
+              <li><a  href="#condo">Condos</a></li>
               <li><a >Tower</a></li>
             </ul>
           )}
