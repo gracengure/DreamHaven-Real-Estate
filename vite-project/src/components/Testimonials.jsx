@@ -14,19 +14,24 @@ function Testimonials({ testimonials }) {
       prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1
     );
   };
-  
+
   return (
     <div className="testimonials">
-      <h2>Testimonials</h2>
-      <div className="testimonial">
-        <p>{testimonials[currentTestimonialIndex].name}</p>
-        <p>{testimonials[currentTestimonialIndex].text}</p>
-        <img
-          src={testimonials[currentTestimonialIndex].image}
-          alt={testimonials[currentTestimonialIndex].name}
-        />
+      <h2>Testimonials  cards comments</h2>
+      <div className="testimonial-card">
+        <div className="testimonial">
+          <h3>Name: {testimonials[currentTestimonialIndex].name}</h3>
+          <img
+            className="testimonial-image"
+            src={testimonials[currentTestimonialIndex].image}
+            alt={testimonials[currentTestimonialIndex].name}
+          />
+          <p className="testimonial-text">
+            {testimonials[currentTestimonialIndex].text}
+          </p>
+        </div>
       </div>
-      <div>
+      <div className="testimonial-controls">
         <button onClick={handlePrev}>Prev</button>
         <button onClick={handleNext}>Next</button>
       </div>
