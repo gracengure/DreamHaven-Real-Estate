@@ -65,7 +65,7 @@
             "name": " Serenity Apartments",
             "price": 555.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQPFWa1UDfaWl2Ntwi0FPua4JcHkU6PR9t4rHnNIsmLPIfxPeA4",
-            "description": "Stylish 3-bedroom with skyline views",
+            "description": "Stylish 3-bedroom with skyline views.",
             "category": "Apartments",
             "location":"OysterBay",
             "bedrooms": 3
@@ -75,7 +75,7 @@
             "name": "Legacy Apartments",
             "price": 450.00,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEO7FDua6uiF9AUz08E6wTfH2E1FAwkbrx8Nzcq9zi1DdYtG2e",
-            "description": "Luxury 2-bedroom with concierge service",
+            "description": "Luxury 2-bedroom with concierge service.",
             "category": "Apartments",
             "location":"Greece",
             "bedrooms": 2
@@ -85,7 +85,7 @@
             "name": "Waterfront Villa",
             "price": 1200.00,
             "image":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlOAir21mClpkrKbPbYgss5wL8L3Bjs9eeMxANtDEOhv3pTqpM",
-            "description": "Luxurious Villa",
+            "description": "Sunny 2-bedroom with park views.",
             "category": "Villas",
             "location":"Yonkers",
             "bedrooms": 2
@@ -95,7 +95,7 @@
             "name": "Mayfair Villa",
             "price": 1250.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXyUwiHQNn7WDy3M0_GUZdq_bKhWyTm3UpdMmNDxFPJnob187z",
-            "description": "Luxurious Villa",
+            "description": "Seaside villa with panoramic ocean views.",
             "category": "Villas",
             "location":"Brookhaven",
             "bedrooms": 4
@@ -105,7 +105,7 @@
             "name": "Silver Villa",
             "price": 2000.00,
             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWSn1h_CshcCbOpPb_TjaWs1U3NLzRvRTTB1XI57MJEQH4AFAG",
-            "description": "Luxurious Villa",
+            "description": "Mountain retreat villa with scenic vistas.",
             "category": "Villas",
             "location":"Babylon",
             "bedrooms": 6
@@ -115,7 +115,7 @@
             "name": "Villa Rosa Villa",
             "price": 2050.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ5EgE-fvIUeFcer8azsvr3zJkhzDyiCWU6HosaSngOJmBu_OCw",
-            "description": "Luxurious Villa",
+            "description": "Villa with private beach access.",
             "category": "Villas",
             "location":"Greece",
             "bedrooms": 5
@@ -125,7 +125,7 @@
             "name": "Paradise Villa",
             "price": 2200.00,
             "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT3_N70-2xp6Kl9nKccK4WVOdBDdUApKLodd-SPsv-pViVi4e_f",
-            "description": "Luxurious Villa",
+            "description": "Family-friendly villa with spacious grounds.",
             "category": "Villas",
             "location":"Albany",
             "bedrooms": 6
@@ -135,7 +135,7 @@
             "name": "Sunset Villa",
             "price": 2500.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRqr0mi6RIJgcdZDd4qNOMOOksIw-QvCYehoMqtMoFDpSDQMUQk",
-            "description": "Luxurious Villa",
+            "description": "Luxury waterfront villa with boat dock.",
             "category": "Villas",
             "location":"New York",
             "bedrooms": 4
@@ -145,7 +145,7 @@
             "name": "The Mirage Villa",
             "price": 2800.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTFpTLsWQlDeDd866AeO897ciU_MoCeT92q_O29hm8hqSwF1Xws",
-            "description": "Luxurious Villa",
+            "description": "Tropical villa with lush landscaping and pool.",
             "category": "Villas",
             "location":"OysterBay",
             "bedrooms": 4
@@ -155,7 +155,7 @@
             "name": "The Billionaire Villa",
             "price": 3000.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRGdp5hM_yDi8scbvGIt3vKdH3i4m9PVjE__iaoeej-GeBDT3Rh",
-            "description": "Luxurious Villa",
+            "description": "Contemporary villa with open-concept living.",
             "category": "Villas",
             "location":"Greece",
             "bedrooms": 5
@@ -165,7 +165,7 @@
             "name": "Sapphire Condo",
             "price": 3300.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQgEYElXDtndYqmhCVYcrzIoEK3gpd0Sz3BPZMJIYumGYNkoedQ",
-            "description": "Luxurious Villa",
+            "description": "Sleek condo in a high-rise building with skyline views.",
             "category": "Condos",
             "location":"New York",
             "bedrooms": 5
@@ -175,7 +175,7 @@
             "name": "Posh Condo",
             "price": 1200000.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSK6uMctYv7RJU5TGL3CQ_48p79qNSWVXuiAFbAKGhTcnSWesQt",
-            "description": "Luxurious Condo,",
+            "description": "Elegant condo with designer finishes.",
             "category": "Condos",
             "location":"OysterBay",
             "bedrooms": 5
@@ -185,7 +185,7 @@
             "name": "Brickell Condo",
             "price": 2500.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSO8evKD3omGw9YdzstU-Z49mnzqP3gcKq4X49u9bgdguuTugi4",
-            "description": "Luxurious Condo,",
+            "description": "Luxury condo with spa-like amenities.",
             "category": "Condos",
             "location":"Babylon",
             "bedrooms": 6
@@ -195,7 +195,7 @@
             "name": "MidTown Condo",
             "price": 3100.00,
             "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSPbjdvr4PYL742y9KtK2awraGncIdyQMLxkZuVNtzJ9qVT-g01",
-            "description": "Luxurious Condo,",
+            "description": "Sleek condo with downtown convenience.",
             "category": "Condos",
             "location":"Greece",
             "bedrooms": 5
@@ -205,7 +205,7 @@
             "name": "Craydon Condo",
             "price": 3500.00,
             "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSIcXdwOj5ajDcS_7hezwHJLA-wVuFk6InSRmDdWnBwqa3szPLx",
-            "description": "Luxurious Condo,",
+            "description": "High-rise condo with concierge service and amenities.",
             "category": "Condos",
             "location":"Albany",
             "bedrooms": 6
@@ -215,7 +215,7 @@
             "name": "Galaxy Condo",
             "price": 1400000.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9RJnPfbaRoa5EEnuaCQjlE7-8zVN4Qz7wp0LTmAtV99ZXFOMb",
-            "description": "Luxurious Condo,",
+            "description": "High-rise condo with cityscape panoramas.",
             "category": "Condos",
             "location":"New York",
             "bedrooms": 4
@@ -225,17 +225,17 @@
             "name": "Palms Condo",
             "price": 3200.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS56RkbvmN35TOv_o6yQxCrQM_scUqHZWXYeqF78UIT8IzURAAB",
-            "description": "Luxurious Condo,",
+            "description": "Contemporary condo with smart home features.",
             "category": "Condos",
             "location":"Greece",
             "bedrooms": 4
         },
         {
             "id":"24",
-            "name": " Condo",
+            "name": "Pacific Condo",
             "price": 3100.00,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCNjH_wP3YYf7Vi_jekHHh2Y0bFsTisj1XJ7RXcQ3IS-H6SjqO",
-            "description": "Luxurious Condo,",
+            "description": "Chic urban condo in a trendy neighborhood",
             "category": "Condos",
             "location":"Greece",
             "bedrooms": 3
