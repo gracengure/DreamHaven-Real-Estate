@@ -5,7 +5,7 @@
           "name": "Frontera Apartments",
           "price": 650.00,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBteFC656g8_FrJxWaZZfXdImQfZIACQoVJMJ3d9bny_Nqa-yP",
-          "description": "Luxurious Apartment",
+          "description": "Chic 3-bedroom in a trendy neighborhood",
           "category": "Apartments",
           "location":"New York",
           "bedrooms": 3
@@ -15,7 +15,7 @@
             "name": " Creek Apartments",
             "price": 420.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTo1MrakEhsJfR3aOiG6rEdPLgp57o6j9dreN9jy_ml4Drrce1V",
-            "description": "Luxurious Apartment",
+            "description": "Luxury penthouse with city panoramas",
             "category": "Apartments",
             "location":"OysterBay",
             "bedrooms": 4
@@ -25,7 +25,7 @@
             "name": " Royal Apartments",
             "price": 380.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8m4PIuQa8fi_w3mHp1UoPa_ZtGrfeKY2qTidbOAZAWQyJN7Jw",
-            "description": "Luxurious Apartment",
+            "description": "Cozy loft with industrial charm",
             "category": "Apartments",
             "location":"Babylon",
             "bedrooms": 2
@@ -35,7 +35,7 @@
             "name": " Urban Apartments",
             "price": 600.00,
             "image": "https://i.pinimg.com/236x/d4/7b/e2/d47be28251f9931b33fb37816bc32143.jpg",
-            "description": "Luxurious Apartment",
+            "description": "Urban 1-bedroom with rooftop access",
             "category": "Apartments",
             "location":"Greece",
             "bedrooms": 1
@@ -45,7 +45,7 @@
             "name": " Luxe Apartments",
             "price": 350.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTjFqjZxdywnVZbESsev7GAU7sEo4lNZIXHN0aslOK4SVSiFx7N",
-            "description": "Luxurious Apartment",
+            "description": "Contemporary apartment near parks",
             "category": "Apartments",
             "location":"Albany",
             "bedrooms": 1
@@ -55,7 +55,7 @@
             "name": " Oasis Apartments",
             "price":450.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTpi-W9TtxCDp_GKrwmSLJToA8jFDTdzobSCJataMeFieRr1JAP",
-            "description": "Luxurious Apartment",
+            "description": "Quaint 2-bedroom with balcony.",
             "category": "Apartments",
             "location":"New York",
             "bedrooms": 2
@@ -65,7 +65,7 @@
             "name": " Serenity Apartments",
             "price": 555.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQPFWa1UDfaWl2Ntwi0FPua4JcHkU6PR9t4rHnNIsmLPIfxPeA4",
-            "description": "Luxurious Apartment",
+            "description": "",
             "category": "Apartments",
             "location":"OysterBay",
             "bedrooms": 3
