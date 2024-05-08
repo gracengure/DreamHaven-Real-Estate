@@ -28,7 +28,7 @@ function NavBar() {
               <li><a  href="#apartment">Apartments</a></li>
               <li><a  href="#villa">Villas</a></li>
               <li><a  href="#condo">Condos</a></li>
-              <li><a >Tower</a></li>
+              <li><a  href="#commercial">Commercials</a></li>
             </ul>
           )}
   </li>
