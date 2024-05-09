@@ -18,7 +18,7 @@ function NavBar() {
 
       <ul className="nav-ul">
       <li>
-          Home
+         <a href="#home"> Home</a>
         </li>
   <li className="dropdown">
     Property 
@@ -32,8 +32,8 @@ function NavBar() {
             </ul>
           )}
   </li>
-  <li>Testimonials</li>
-  <li>Contacts</li>
+  <li> <a href="#testimonials">Testimonials </a></li>
+  <li> <a href="#contact">Contacts </a></li>
   
 </ul>
       

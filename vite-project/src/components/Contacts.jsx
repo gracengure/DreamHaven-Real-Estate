@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
      <div className="contact-card">
-      <h1>Contact Us</h1>
+      <h1 id="contact">Contact Us</h1>
       <div className="contact-form">
         <h2>Contact Form</h2>
         <form>
