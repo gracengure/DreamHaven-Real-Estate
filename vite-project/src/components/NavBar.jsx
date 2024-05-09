@@ -11,7 +11,7 @@ function NavBar() {
  
   function toggleDropdown  () {
     setIsDropdownOpen(!isDropdownOpen);
-  };
+  }
   return (
     <div className="nav-bar">
       <img src={Logo} alt="logo" className="logo-img" />
