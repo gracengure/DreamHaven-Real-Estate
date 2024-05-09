@@ -96,7 +96,7 @@
  .card {
   object-fit: contain;
   width: 250px; /* Increased width */
-  height: 400px; /* Increased height */
+  height: 350px; /* Increased height */
   border: 1px solid grey;
   border-radius: 10px;
   position: relative;
@@ -334,12 +334,23 @@
 .social-media-links > *:hover {
   color: #0056b3;
 }
+.property-card{
+  margin-left: 600px;
+  margin-right: 600px;
+
+}
 .property-specs {
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #bde0fe;
-  margin: 20px;
+  object-fit: contain;
+  width: 300px; /* Increased width */
+  height: 380px; /* Increased height */
+  border: 1px solid grey;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  
+  background-color: #f0f0f0;
+  margin-top:100px; 
+
 }
 
 .property-name {
@@ -349,10 +360,9 @@
 
 .property-image {
   width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 5px;
-  margin-bottom: 10px;
+height: 200px;
+  
+  margin-top: 10px;
 }
 
 .property-details {

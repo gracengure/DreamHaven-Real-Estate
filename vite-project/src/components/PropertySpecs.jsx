@@ -19,7 +19,8 @@ function PropertySpecs() {
   }
 
   return (
-    <div className="property-specs">
+    <div className="property-card">
+      <div className="property-specs">
       <h2 className="property-name">{property.name}</h2>
       <img
         src={property.image}
@@ -27,13 +28,15 @@ function PropertySpecs() {
         className="property-image"
       />
       <div className="property-details">
+      <p className="property-description">{property.description}</p>
         <p>
           {property.bedrooms !== undefined ? "Bedroom" : "Floor"}:{" "}
           {property.bedrooms !== undefined ? property.bedrooms : property.floor}
         </p>
         <p className="property-price">Price: ${property.price}</p>
         <p className="property-location">Location: {property.location}</p>
-        <p className="property-description">{property.description}</p>
+        
+      </div>
       </div>
     </div>
   );

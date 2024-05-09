@@ -5,15 +5,17 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import PropertySpecs from './components/PropertySpecs.jsx';
 
+
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '*',
     element: <App />,
   },
   {
-    path: '/properties/:propertyId', // Define a route for PropertySpecs with parameter
+    path: '/properties/:propertyId', 
     element: <PropertySpecs />,
-  }
+  },
+ 
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
