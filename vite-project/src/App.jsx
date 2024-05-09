@@ -17,6 +17,7 @@ function App() {
         <Route path="/properties/:propertyId" element={<PropertySpecs />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/testimonials" element={<TestimonialsData />} />
+        
       </Routes>
     </div>
   );

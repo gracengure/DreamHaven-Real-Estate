@@ -41,7 +41,7 @@ function Testimonials({ testimonials }) {
 
   return (
     <div className="testimonials">
-      <h2>Testimonials </h2>
+      <h2 id="testimonials">Testimonials </h2>
       <div className="testimonial-card">
         <div className="testimonial">
           <h3>Name: {editedTestimonial.name}</h3>

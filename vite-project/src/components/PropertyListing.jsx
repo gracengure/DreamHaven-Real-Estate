@@ -16,12 +16,14 @@ function PropertyListing({ properties, onDelete }) {
     <div>
       {categories.map((category) => (
         <div key={category} className="container">
-          <h1 id={category}>{category}</h1>
+          <h1 id={category}></h1>
           {properties
             .filter((property) => property.category === category)
             .map((property) => (
               <div key={property.id} className="card">
+                <h2 className="property-name">{property.name}</h2>
                 <Link to={`/properties/${property.id}`}>
+                
                   <img
                     src={property.image}
                     alt={property.name}
@@ -29,7 +31,7 @@ function PropertyListing({ properties, onDelete }) {
                   />
                 </Link>
                 <div className="property-details">
-                  <h2 className="property-name">{property.name}</h2>
+                  
 
                   <p>Price: ${property.price}</p>
                   <p>Location: {property.location}</p>
