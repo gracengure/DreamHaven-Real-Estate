@@ -1,4 +1,5 @@
 
+
 import Logo from "../assets/IMG_20240507_135149.jpg";
 import { FaCaretDown } from 'react-icons/fa';
 import React, { useState } from 'react'
@@ -24,10 +25,10 @@ function NavBar() {
     <FaCaretDown   onClick={toggleDropdown} />
     {isDropdownOpen && (
             <ul className="dropdown-content">
-              <li><a href="#">Apartments</a></li>
-              <li><a href="#">Villas</a></li>
-              <li><a href="#">Condos</a></li>
-              <li><a href="#">Commercials</a></li>
+              <li><a  href="#apartment">Apartments</a></li>
+              <li><a  href="#villa">Villas</a></li>
+              <li><a  href="#condo">Condos</a></li>
+              <li><a  href="#commercial">Commercials</a></li>
             </ul>
           )}
   </li>
@@ -42,6 +43,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
-  
-

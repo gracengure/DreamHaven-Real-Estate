@@ -11,11 +11,13 @@ function App() {
     <div>
       <NavBar />
       <HomePage/>
+      
       <PropertyListing/>
       
       <TestimonialsData />
       <Contacts/>
     </div>
+    
   );
 }
 
