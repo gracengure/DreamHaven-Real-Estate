@@ -52,6 +52,7 @@ function Testimonials({ testimonials }) {
           />
           <p className="testimonial-text">{editedTestimonial.text}</p>
           <form onSubmit={handleUpdate} className="update-form">
+            <h2>Edit testimonials</h2>
             <input
               className="name-update"
               type="text"
