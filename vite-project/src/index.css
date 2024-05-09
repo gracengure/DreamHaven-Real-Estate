@@ -334,3 +334,36 @@
 .social-media-links > *:hover {
   color: #0056b3;
 }
+.property-specs {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #bde0fe;
+  margin: 20px;
+}
+
+.property-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.property-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.property-details {
+  margin-top: 10px;
+}
+
+.property-price,
+.property-location {
+  margin-bottom: 5px;
+}
+
+.property-description {
+  line-height: 1.5;
+}
