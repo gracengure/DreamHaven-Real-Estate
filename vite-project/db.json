@@ -3,9 +3,9 @@
         {
           "id":"1",
           "name": "Frontera Apartments",
-          "price": 300000.00,
+          "price": 650.00,
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBteFC656g8_FrJxWaZZfXdImQfZIACQoVJMJ3d9bny_Nqa-yP",
-          "description": "Luxurious Apartment",
+          "description": "Chic 3-bedroom in a trendy neighborhood",
           "category": "Apartments",
           "location":"New York",
           "bedrooms": 3
@@ -13,9 +13,9 @@
         {
             "id":"2",
             "name": " Creek Apartments",
-            "price": 550000.00,
+            "price": 420.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTo1MrakEhsJfR3aOiG6rEdPLgp57o6j9dreN9jy_ml4Drrce1V",
-            "description": "Luxurious Apartment",
+            "description": "Luxury penthouse with city panoramas",
             "category": "Apartments",
             "location":"OysterBay",
             "bedrooms": 4
@@ -23,9 +23,9 @@
         {
             "id":"3",
             "name": " Royal Apartments",
-            "price": 200000.00,
+            "price": 380.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8m4PIuQa8fi_w3mHp1UoPa_ZtGrfeKY2qTidbOAZAWQyJN7Jw",
-            "description": "Luxurious Apartment",
+            "description": "Cozy loft with industrial charm",
             "category": "Apartments",
             "location":"Babylon",
             "bedrooms": 2
@@ -33,9 +33,9 @@
         {
             "id":"4",
             "name": " Urban Apartments",
-            "price": 650000.00,
+            "price": 600.00,
             "image": "https://i.pinimg.com/236x/d4/7b/e2/d47be28251f9931b33fb37816bc32143.jpg",
-            "description": "Luxurious Apartment",
+            "description": "Urban 1-bedroom with rooftop access",
             "category": "Apartments",
             "location":"Greece",
             "bedrooms": 1
@@ -43,9 +43,9 @@
         {
             "id":"5",
             "name": " Luxe Apartments",
-            "price": 250000.00,
+            "price": 350.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTjFqjZxdywnVZbESsev7GAU7sEo4lNZIXHN0aslOK4SVSiFx7N",
-            "description": "Luxurious Apartment",
+            "description": "Contemporary apartment near parks",
             "category": "Apartments",
             "location":"Albany",
             "bedrooms": 1
@@ -53,9 +53,9 @@
         {
             "id":"6",
             "name": " Oasis Apartments",
-            "price": 350000.00,
+            "price":450.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTpi-W9TtxCDp_GKrwmSLJToA8jFDTdzobSCJataMeFieRr1JAP",
-            "description": "Luxurious Apartment",
+            "description": "Quaint 2-bedroom with balcony.",
             "category": "Apartments",
             "location":"New York",
             "bedrooms": 2
@@ -63,9 +63,9 @@
         {
             "id":"7",
             "name": " Serenity Apartments",
-            "price": 555000.00,
+            "price": 555.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQPFWa1UDfaWl2Ntwi0FPua4JcHkU6PR9t4rHnNIsmLPIfxPeA4",
-            "description": "Luxurious Apartment",
+            "description": "Stylish 3-bedroom with skyline views.",
             "category": "Apartments",
             "location":"OysterBay",
             "bedrooms": 3
@@ -73,9 +73,9 @@
         {
             "id":"8",
             "name": "Legacy Apartments",
-            "price": 450000.00,
+            "price": 450.00,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEO7FDua6uiF9AUz08E6wTfH2E1FAwkbrx8Nzcq9zi1DdYtG2e",
-            "description": "Luxurious Apartment",
+            "description": "Luxury 2-bedroom with concierge service.",
             "category": "Apartments",
             "location":"Greece",
             "bedrooms": 2
@@ -83,9 +83,9 @@
         {
             "id":"9",
             "name": "Waterfront Villa",
-            "price": 700000.00,
+            "price": 1200.00,
             "image":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlOAir21mClpkrKbPbYgss5wL8L3Bjs9eeMxANtDEOhv3pTqpM",
-            "description": "Luxurious Villa",
+            "description": "Sunny 2-bedroom with park views.",
             "category": "Villas",
             "location":"Yonkers",
             "bedrooms": 2
@@ -93,9 +93,9 @@
         {
             "id":"10",
             "name": "Mayfair Villa",
-            "price": 700000.00,
+            "price": 1250.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXyUwiHQNn7WDy3M0_GUZdq_bKhWyTm3UpdMmNDxFPJnob187z",
-            "description": "Luxurious Villa",
+            "description": "Seaside villa with panoramic ocean views.",
             "category": "Villas",
             "location":"Brookhaven",
             "bedrooms": 4
@@ -103,9 +103,9 @@
         {
             "id":"11",
             "name": "Silver Villa",
-            "price": 720000.00,
+            "price": 2000.00,
             "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWSn1h_CshcCbOpPb_TjaWs1U3NLzRvRTTB1XI57MJEQH4AFAG",
-            "description": "Luxurious Villa",
+            "description": "Mountain retreat villa with scenic vistas.",
             "category": "Villas",
             "location":"Babylon",
             "bedrooms": 6
@@ -113,9 +113,9 @@
         {
             "id":"12",
             "name": "Villa Rosa Villa",
-            "price": 700000.00,
+            "price": 2050.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ5EgE-fvIUeFcer8azsvr3zJkhzDyiCWU6HosaSngOJmBu_OCw",
-            "description": "Luxurious Villa",
+            "description": "Villa with private beach access.",
             "category": "Villas",
             "location":"Greece",
             "bedrooms": 5
@@ -123,9 +123,9 @@
         {
             "id":"13",
             "name": "Paradise Villa",
-            "price": 600000.00,
+            "price": 2200.00,
             "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT3_N70-2xp6Kl9nKccK4WVOdBDdUApKLodd-SPsv-pViVi4e_f",
-            "description": "Luxurious Villa",
+            "description": "Family-friendly villa with spacious grounds.",
             "category": "Villas",
             "location":"Albany",
             "bedrooms": 6
@@ -133,9 +133,9 @@
         {
             "id":"14",
             "name": "Sunset Villa",
-            "price": 750000.00,
+            "price": 2500.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRqr0mi6RIJgcdZDd4qNOMOOksIw-QvCYehoMqtMoFDpSDQMUQk",
-            "description": "Luxurious Villa",
+            "description": "Luxury waterfront villa with boat dock.",
             "category": "Villas",
             "location":"New York",
             "bedrooms": 4
@@ -143,9 +143,9 @@
         {
             "id":"15",
             "name": "The Mirage Villa",
-            "price": 700000.00,
+            "price": 2800.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTFpTLsWQlDeDd866AeO897ciU_MoCeT92q_O29hm8hqSwF1Xws",
-            "description": "Luxurious Villa",
+            "description": "Tropical villa with lush landscaping and pool.",
             "category": "Villas",
             "location":"OysterBay",
             "bedrooms": 4
@@ -153,9 +153,9 @@
         {
             "id":"16",
             "name": "The Billionaire Villa",
-            "price": 900000.00,
+            "price": 3000.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRGdp5hM_yDi8scbvGIt3vKdH3i4m9PVjE__iaoeej-GeBDT3Rh",
-            "description": "Luxurious Villa",
+            "description": "Contemporary villa with open-concept living.",
             "category": "Villas",
             "location":"Greece",
             "bedrooms": 5
@@ -163,9 +163,9 @@
         {
             "id":"17",
             "name": "Sapphire Condo",
-            "price": 1000000.00,
+            "price": 3300.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQgEYElXDtndYqmhCVYcrzIoEK3gpd0Sz3BPZMJIYumGYNkoedQ",
-            "description": "Luxurious Villa",
+            "description": "Sleek condo in a high-rise building with skyline views.",
             "category": "Condos",
             "location":"New York",
             "bedrooms": 5
@@ -173,9 +173,9 @@
         {
             "id":"18",
             "name": "Posh Condo",
-            "price": 1200000.00,
+            "price": 32000.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSK6uMctYv7RJU5TGL3CQ_48p79qNSWVXuiAFbAKGhTcnSWesQt",
-            "description": "Luxurious Condo,",
+            "description": "Chic urban condo in a trendy neighborhood.",
             "category": "Condos",
             "location":"OysterBay",
             "bedrooms": 5
@@ -183,9 +183,9 @@
         {
             "id":"19",
             "name": "Brickell Condo",
-            "price": 1500000.00,
+            "price": 2500.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSO8evKD3omGw9YdzstU-Z49mnzqP3gcKq4X49u9bgdguuTugi4",
-            "description": "Luxurious Condo,",
+            "description": "Contemporary condo with smart home features.",
             "category": "Condos",
             "location":"Babylon",
             "bedrooms": 6
@@ -193,9 +193,9 @@
         {
             "id":"20",
             "name": "MidTown Condo",
-            "price": 1000000.00,
+            "price": 3100.00,
             "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSPbjdvr4PYL742y9KtK2awraGncIdyQMLxkZuVNtzJ9qVT-g01",
-            "description": "Luxurious Condo,",
+            "description": "Elegant condo with designer finishes.",
             "category": "Condos",
             "location":"Greece",
             "bedrooms": 5
@@ -203,9 +203,9 @@
         {
             "id":"21",
             "name": "Craydon Condo",
-            "price": 1350000.00,
+            "price": 3500.00,
             "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSIcXdwOj5ajDcS_7hezwHJLA-wVuFk6InSRmDdWnBwqa3szPLx",
-            "description": "Luxurious Condo,",
+            "description": "Chic condo in a bustling entertainment district.",
             "category": "Condos",
             "location":"Albany",
             "bedrooms": 6
@@ -215,7 +215,7 @@
             "name": "Galaxy Condo",
             "price": 1400000.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9RJnPfbaRoa5EEnuaCQjlE7-8zVN4Qz7wp0LTmAtV99ZXFOMb",
-            "description": "Luxurious Condo,",
+            "description": "Modern condo with open floor plan and natural light.",
             "category": "Condos",
             "location":"New York",
             "bedrooms": 4
@@ -223,19 +223,19 @@
         {
             "id":"23",
             "name": "Palms Condo",
-            "price": 1005000.00,
+            "price": 3200.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS56RkbvmN35TOv_o6yQxCrQM_scUqHZWXYeqF78UIT8IzURAAB",
-            "description": "Luxurious Condo,",
+            "description": "Luxury condo with resort-style amenities.",
             "category": "Condos",
             "location":"Greece",
             "bedrooms": 4
         },
         {
             "id":"24",
-            "name": " Condo",
-            "price": 1080000.00,
+            "name": "Pacific Condo",
+            "price": 3100.00,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCNjH_wP3YYf7Vi_jekHHh2Y0bFsTisj1XJ7RXcQ3IS-H6SjqO",
-            "description": "Luxurious Condo,",
+            "description": "Downtown condo with city skyline views.",
             "category": "Condos",
             "location":"Greece",
             "bedrooms": 3
@@ -243,82 +243,82 @@
         {
             "id":"25",
             "name": " Wilis Tower",
-            "price": 2080000.00,
+            "price": 3800.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSaFsN7PQFph4N67pPiOUffVTuCWYIbvnkabOYMj1J6nEgDChsV",
             "description": "Shops",
-            "category": "Retail",
+            "category": "Commercials",
             "location":"New York",
-            "floor":"15th"
+            "floor":"10th"
         },
         {
             "id":"26",
             "name": " TwinBird Tower",
-            "price": 2050000.00,
+            "price":3500.00,
             "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSUQhqFVrQ7BHyVjniQmYTirAw5aVi7xc8Npfs9P0Dx5wFiS5Iu",
             "description": "Restaurant",
-            "category": "Retail",
+            "category": "Commercials",
             "location":"OysterBay",
             "floor":"6th"
         },
         {
             "id":"27",
             "name": " Elite ",
-            "price": 2500000.00,
+            "price": 3800.00,
             "image":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQzAyqfKjId5-De_dw2ygO7KPNXiRYu3UoSVbKDCvOwPixQ7Rlk",
             "description": "Universty",
-            "category": "School",
+            "category": "Commercials",
             "location":"Babylon",
             "floor":"18th"
         },
         {
             "id":"28",
             "name": " Wuhan Tower",
-            "price": 1500000.00,
+            "price": 4000.00,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdml2pqR_UTBKg1QExFRWQN4J6bqC85zMxwvrXkKLn2ji6wImD",
             "description": "Working spaces",
-            "category": "Offices",
+            "category": "Commercials",
             "location":"New York",
             "floor":"8th"
         },
         {
             "id":"29",
             "name": " Central Plaza",
-            "price": 1800000.00,
+            "price": 4200.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRRWi3OvMjab97ISFT1SxX6WIr3MEFrsNFYDlPZVTj_j9-jU5l_",
             "description": "Eyesight clinic ",
-            "category": "Hospital",
+            "category": "Commercials",
             "location":"Brookhaven",
             "floor":"2"
         },
         {
             "id":"30",
             "name": " Almas Tower",
-            "price": 200000.00,
+            "price": 4500.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSvt-6elxFEIPIrx_R_wkxht82ntGtCXmWt27sas2vLAlAxXgjs",
             "description": "Working spaces",
-            "category": "Library",
+            "category": "Commercials",
             "location":"Yonkers",
-            "floor":"6th"
+            "floor":"8th"
         },
         {
             "id":"31",
             "name": " Dalian Tower",
-            "price": 1400000.00,
+            "price": 4800.00,
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHziacrxrKaNkJfzYghUKpdrnqRCh7iqLc5uPy4kEV_QWuVPDe",
             "description": "Art exhibition",
-            "category": "ArtGallery",
+            "category": "Commercials", 
             "location":"OysterBay",
             "floor":"20th"
         },
         {
             "id":"32",
             "name": " Pinnacle Tower",
-            "price": 1500000.00,
+            "price": 4200.00,
             "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTgG7WXCxGWJvTuYFdsswjNmr17BE7iqElmkP3WPGg8TmLk6_qm",
             "description": "Working spaces",
-            "category": "Callcenter",
+            "category": "Commercials",
             "location":"Greece",
-            "floor":"10th"
+            "floor":"12th"
         }
     ]   
-}    
+}

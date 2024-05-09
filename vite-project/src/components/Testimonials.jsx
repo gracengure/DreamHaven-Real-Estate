@@ -17,7 +17,7 @@ function Testimonials({ testimonials }) {
 
   return (
     <div className="testimonials">
-      <h2>Testimonials carousel - cards comments</h2>
+      <h2>Testimonials </h2>
       <div className="testimonial-card">
         <div className="testimonial">
           <h3>Name: {testimonials[currentTestimonialIndex].name}</h3>
