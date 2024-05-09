@@ -1,4 +1,4 @@
-;
+// HomePage.js
 import React, { useState, useEffect } from 'react';
 import SearchBar from './SearchBar';
 import PropertyListing from './PropertyListing';
@@ -21,13 +21,11 @@ function HomePage() {
     setFilteredProperties(filteredProperties);
   };
 
-  
-
   return (
     <section  id="home"className='home'>
       <SearchBar properties={properties} setFilteredProperties={handleSearch} />
       <img src={page} className='home-img'/>
-      <PropertyListing properties={filteredProperties} />
+      <PropertyListing properties={filteredProperties} onDelete={handleDeleteProperty} />
     </section>
   );
 }

@@ -1,13 +1,11 @@
 import React from "react";
 
-function PropertyListing({ properties }) {
+function PropertyListing({ properties, onDelete }) {
   if (!properties || properties.length === 0) {
     return <div>Loading ...</div>;
   }
 
-  const categories = ["Apartments", "Villas", "Condos", "Commercials"];
-
- 
+  const categories = ['Apartments', 'Villas', 'Condos', 'Commercials'];
 
   return (
     <div>
@@ -34,8 +32,6 @@ function PropertyListing({ properties }) {
                   </p>
                   <p>Price: ${property.price}</p>
                   <p>Location: {property.location}</p>
-                  <br />
-                  
                 </div>
               </div>
             ))}

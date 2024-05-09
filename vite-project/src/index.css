@@ -94,15 +94,31 @@
  }
  .card {
   object-fit: contain;
-  width: 250px;
- border: 1px solid grey;
- height: 330px;
- border-radius: 10px;
- position: relative;
- overflow: hidden;
+  width: 250px; /* Increased width */
+  height: 400px; /* Increased height */
+  border: 1px solid grey;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
   transition: transform 0.3s ease, opacity 0.3s ease;
   background-color: #f0f0f0;
+  margin-bottom: 20px; /* Added margin for spacing between cards */
 }
+.delete-btn {
+  background-color: #ff3333; 
+  color: white; 
+  border: none; 
+  padding: 5px 10px; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.delete-btn:hover {
+  background-color: #cc0000; 
+}
+
+
 .card:hover {
   transform: scale(1.1); /* Scale the card to 50% of its original size */
   
@@ -151,7 +167,7 @@
 .search-btn {
   width: 100px;
   height: 40px;
-  background-color: rgb(250, 212, 143); 
+  background-color: #00b4d8; 
   color: #fff;
   border: none;
   border-radius: 5px;
