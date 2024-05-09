@@ -47,25 +47,11 @@ const Contact = () => {
 
         <h2>Follow Us</h2>
         <div className="social-media-links">
-        <a href="https://www.instagram.com/your_username" target="_blank" rel="noopener noreferrer">
             <FaInstagramSquare />
-          </a>
-        <a href="https://twitter.com/your_username" target="_blank" rel="noopener noreferrer">
             <FaTwitterSquare />
-          </a>
-          <a href="https://www.facebook.com/your_username" target="_blank" rel="noopener noreferrer">
             <FaFacebookSquare />
-          </a>
-          <a href="https://t.me/your_username" target="_blank" rel="noopener noreferrer">
             <BiLogoTelegram />
-          </a>
-          <a href="https://www.tiktok.com/@your_username" target="_blank" rel="noopener noreferrer">
             <AiFillTikTok />
-          </a>
-
-
-
-
         </div>
       </div>
     </div>
