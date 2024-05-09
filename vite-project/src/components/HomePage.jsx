@@ -25,7 +25,7 @@ function HomePage() {
     <section  id="home"className='home'>
       <SearchBar properties={properties} setFilteredProperties={handleSearch} />
       <img src={page} className='home-img'/>
-      <PropertyListing properties={filteredProperties} onDelete={handleDeleteProperty} />
+      <PropertyListing properties={filteredProperties}  />
     </section>
   );
 }
