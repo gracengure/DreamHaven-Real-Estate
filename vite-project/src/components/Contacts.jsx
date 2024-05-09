@@ -49,9 +49,6 @@ const Contact = () => {
             <a href="https://www.instagram.com/your_username" target="_blank" rel="noopener noreferrer">
             <FaInstagramSquare />
           </a>
-          <a href="https://twitter.com/your_username" target="_blank" rel="noopener noreferrer">
-            <FaTwitterSquare />
-          </a>
           <a href="https://www.facebook.com/your_username" target="_blank" rel="noopener noreferrer">
             <FaFacebookSquare />
           </a>
