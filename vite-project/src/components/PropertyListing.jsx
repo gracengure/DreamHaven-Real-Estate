@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 
 function PropertyListing({ properties }) {
   if (!properties || properties.length === 0) {
@@ -11,6 +12,7 @@ function PropertyListing({ properties }) {
     if (property.category === 'Apartments') {
       return (
         <div key={property.id} className="card">
+          <Link to={`/property/${property.id}`} style={{ textDecoration: 'none', color: 'black'}}>
           <h2 className="property-name">{property.name}</h2>
           <div className="property-details">
             <img
@@ -28,6 +30,7 @@ function PropertyListing({ properties }) {
             <p>Price: ${property.price}</p>
             <p>Location: {property.location}</p>
           </div>
+          </Link>
         </div>
       );
     } else {
@@ -40,6 +43,7 @@ function PropertyListing({ properties }) {
     if (property.category === 'Villas') {
       return (
         <div key={property.id} className="card">
+          <Link to={`/property/${property.id}`} style={{ textDecoration: 'none', color: 'black'}}>
           <h2 className="property-name">{property.name}</h2>
           <div className="property-details">
             <img
@@ -57,6 +61,7 @@ function PropertyListing({ properties }) {
             <p>Price: ${property.price}</p>
             <p>Location: {property.location}</p>
           </div>
+          </Link>
         </div>
       );
     } else {
@@ -69,6 +74,7 @@ function PropertyListing({ properties }) {
     if (property.category === 'Condos') {
       return (
         <div key={property.id} className="card">
+          <Link to={`/property/${property.id}`} style={{ textDecoration: 'none', color: 'black'}}>
           <h2 className="property-name">{property.name}</h2>
           <div className="property-details">
             <img
@@ -86,6 +92,7 @@ function PropertyListing({ properties }) {
             <p>Price: ${property.price}</p>
             <p>Location: {property.location}</p>
           </div>
+          </Link>
         </div>
       );
     } else {
@@ -98,6 +105,7 @@ function PropertyListing({ properties }) {
     if (property.category === 'Commercials') {
       return (
         <div key={property.id} className="card">
+          <Link to={`/property/${property.id}`} style={{ textDecoration: 'none', color: 'black'}}>
           <h2 className="property-name">{property.name}</h2>
           <div className="property-details">
             <img
@@ -115,6 +123,7 @@ function PropertyListing({ properties }) {
             <p>Price: ${property.price}</p>
             <p>Location: {property.location}</p>
           </div>
+          </Link>
         </div>
       );
     } else {
