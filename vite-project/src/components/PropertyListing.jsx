@@ -1,12 +1,12 @@
 import React from 'react';
 
-function PropertyListing({ properties }) {
+function PropertyListing({ properties  }) {
   if (!properties || properties.length === 0) {
     return <div>Loading ...</div>;
   }
 
   const categories = ['Apartments', 'Villas', 'Condos', 'Commercials'];
-
+  
   return (
     <div>
       {categories.map((category) => (
@@ -23,6 +23,8 @@ function PropertyListing({ properties }) {
                   <p>{property.bedrooms !== undefined ? 'Bedroom' : 'Floor'}: {property.bedrooms !== undefined ? property.bedrooms : property.floor}</p>
                   <p>Price: ${property.price}</p>
                   <p>Location: {property.location}</p>
+                 
+                
                 </div>
               </div>
             ))}
