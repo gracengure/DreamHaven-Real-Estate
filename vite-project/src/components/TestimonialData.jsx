@@ -56,4 +56,3 @@ function TestimonialsData() {
 }
 
 export default TestimonialsData;
-

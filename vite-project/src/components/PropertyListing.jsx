@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 function PropertyListing({ properties, onDelete }) {
   if (!properties || properties.length === 0) {
@@ -22,23 +23,26 @@ function PropertyListing({ properties, onDelete }) {
             .map((property) => (
               <div key={property.id} className="card">
                 <h2 className="property-name">{property.name}</h2>
-                <div className="property-details">
+                <Link to={`/properties/${property.id}`}>
+                
                   <img
                     src={property.image}
                     alt={property.name}
                     className="property-img"
                   />
-                  <p>{property.description}</p>
-                  <p>
-                    {property.bedrooms !== undefined ? "Bedroom" : "Floor"}:{" "}
-                    {property.bedrooms !== undefined
-                      ? property.bedrooms
-                      : property.floor}
-                  </p>
+                </Link>
+                <div className="property-details">
+                  <h2 className="property-name">{property.name}</h2>
+
                   <p>Price: ${property.price}</p>
                   <p>Location: {property.location}</p>
                   <br />
-                  <button className="delete-btn" onClick={() => handleDelete(property.id)}>DELETE</button>
+                  <button
+                    className="delete-btn"
+                    onClick={() => handleDelete(property.id)}
+                  >
+                    DELETE
+                  </button>
                 </div>
               </div>
             ))}
