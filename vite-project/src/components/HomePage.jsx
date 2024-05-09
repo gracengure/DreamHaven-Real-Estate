@@ -1,4 +1,3 @@
-// HomePage.js
 import React, { useState, useEffect } from 'react';
 import SearchBar from './SearchBar';
 import PropertyListing from './PropertyListing';
@@ -21,11 +20,25 @@ function HomePage() {
     setFilteredProperties(filteredProperties);
   };
 
+  const handleDeleteProperty = (id) => {
+    // Make a DELETE request to the server
+    fetch(`http://localhost:3000/property/${id}`, {
+      method: 'DELETE'
+    })
+    .then(() => {
+      // Update state after successful deletion
+      const updatedProperties = properties.filter(property => property.id !== id);
+      setProperties(updatedProperties);
+      setFilteredProperties(updatedProperties);
+    })
+    .catch(error => console.error('Error deleting property:', error));
+  };
+
   return (
     <section  id="home"className='home'>
       <SearchBar properties={properties} setFilteredProperties={handleSearch} />
       <img src={page} className='home-img'/>
-      <PropertyListing properties={filteredProperties}  />
+      <PropertyListing properties={filteredProperties} onDelete={handleDeleteProperty} />
     </section>
   );
 }

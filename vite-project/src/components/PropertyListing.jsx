@@ -5,7 +5,11 @@ function PropertyListing({ properties, onDelete }) {
     return <div>Loading ...</div>;
   }
 
-  const categories = ['Apartments', 'Villas', 'Condos', 'Commercials'];
+  const categories = ["Apartments", "Villas", "Condos", "Commercials"];
+
+  const handleDelete = (id) => {
+    onDelete(id);
+  };
 
   return (
     <div>
@@ -32,6 +36,8 @@ function PropertyListing({ properties, onDelete }) {
                   </p>
                   <p>Price: ${property.price}</p>
                   <p>Location: {property.location}</p>
+                  <br />
+                  <button className="delete-btn" onClick={() => handleDelete(property.id)}>DELETE</button>
                 </div>
               </div>
             ))}
