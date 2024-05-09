@@ -31,7 +31,7 @@ function PropertyListing({ properties, onDelete }) {
                   />
                 </Link>
                 <div className="property-details">
-                  
+                  <h2 className="property-name">{property.name}</h2>
 
                   <p>Price: ${property.price}</p>
                   <p>Location: {property.location}</p>
