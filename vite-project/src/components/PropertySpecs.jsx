@@ -18,25 +18,29 @@ function PropertySpecs() {
     return <div>Loading...</div>;
   }
 
+  const goBack = () => {
+    window.history.back(); // Go back 
+  };
+
   return (
     <div className="property-card">
       <div className="property-specs">
-      <h2 className="property-name">{property.name}</h2>
-      <img
-        src={property.image}
-        alt={property.name}
-        className="property-image"
-      />
-      <div className="property-details">
-      <p className="property-description">{property.description}</p>
-        <p>
-          {property.bedrooms !== undefined ? "Bedroom" : "Floor"}:{" "}
-          {property.bedrooms !== undefined ? property.bedrooms : property.floor}
-        </p>
-        <p className="property-price">Price: ${property.price}</p>
-        <p className="property-location">Location: {property.location}</p>
-        
-      </div>
+        <h2 className="property-name">{property.name}</h2>
+        <img
+          src={property.image}
+          alt={property.name}
+          className="property-image"
+        />
+        <div className="property-details">
+          <button className="go-back-btn" onClick={goBack}>GO BACK</button>
+          <p className="property-description">{property.description}</p>
+          <p>
+            {property.bedrooms !== undefined ? "Bedroom" : "Floor"}:{" "}
+            {property.bedrooms !== undefined ? property.bedrooms : property.floor}
+          </p>
+          <p className="property-price">Price: ${property.price}</p>
+          <p className="property-location">Location: {property.location}</p>
+        </div>
       </div>
     </div>
   );
