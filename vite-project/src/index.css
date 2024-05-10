@@ -422,4 +422,13 @@ height: 200px;
 
 .testimonial-controls button:hover {
   background-color: #0056b3; 
+} 
+.cardBar {
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  
+  left: 50%;
 }
