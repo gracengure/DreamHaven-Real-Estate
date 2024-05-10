@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import SearchBar from './SearchBar';
 import PropertyListing from './PropertyListing';
 import page from '../assets/WhatsApp Image 2024-05-07 at 16.55.47.jpeg';
+import CreateProperty from './CreateProperty';
 
 function HomePage() {
   const [properties, setProperties] = useState([]);
@@ -38,6 +39,7 @@ function HomePage() {
     <section  id="home"className='home'>
       <SearchBar properties={properties} setFilteredProperties={handleSearch} />
       <img src={page} className='home-img'/>
+      <CreateProperty/>
       <PropertyListing properties={filteredProperties} onDelete={handleDeleteProperty} />
     </section>
   );

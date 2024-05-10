@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import PropertySpecs from './components/PropertySpecs.jsx';
 
 
+
 const router = createBrowserRouter([
   {
     path: '*',
@@ -14,8 +15,7 @@ const router = createBrowserRouter([
   {
     path: '/properties/:propertyId', 
     element: <PropertySpecs />,
-  },
- 
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
