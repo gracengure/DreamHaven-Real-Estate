@@ -2,7 +2,7 @@
 
 #### Date, 2024/05/10
 
-#### By _ 1.Grace Ngure 2.Joy Kweyu 3.Charity Wanjiku 4.Felicity Muhonja 4.Patrick Kinyanjui_
+#### By _ 1.Grace Ngure 2.Joy Kweyu 3.Charity Wanjiku 4.Felicity Muhonja 5.Patrick Kinyanjui_
 
 ## Project Description
 
