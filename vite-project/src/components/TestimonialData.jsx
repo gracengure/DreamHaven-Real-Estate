@@ -1,7 +1,8 @@
-import React from "react";
-import Testimonials from "./Testimonials";
-
+import React from "react";// Importing React library
+import Testimonials from "./Testimonials";// Importing Testimonials component
+// Function component TestimonialsData
 function TestimonialsData() {
+  // Array containing testimonial data
   const testimonials = [
     {
         id: 1,
@@ -55,4 +56,4 @@ function TestimonialsData() {
   );
 }
 
-export default TestimonialsData;
+export default TestimonialsData;// Exporting the TestimonialsData component

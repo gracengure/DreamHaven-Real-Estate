@@ -1,18 +1,20 @@
 
-import React from "react";
-import { Link } from "react-router-dom";
+import React from "react";// Importing React library
+import { Link } from "react-router-dom";// Importing Link component from react-router-dom
 
+// Function component PropertyListing
 function PropertyListing({ properties, onDelete }) {
+  // If properties are not available or empty, display "Loading ...
   if (!properties || properties.length === 0) {
     return <div>Loading ...</div>;
   }
-
+// Array of property categories
   const categories = ["Apartments", "Villas", "Condos", "Commercials"];
-
+  // Function to handle property deletion
   const handleDelete = (id) => {
     onDelete(id);
   };
-
+// Rendering JSX for PropertyListing
   return (
     <div>
       {categories.map((category) => (
@@ -52,4 +54,4 @@ function PropertyListing({ properties, onDelete }) {
   );
 }
 
-export default PropertyListing;
+export default PropertyListing;// Exporting the PropertyListing component

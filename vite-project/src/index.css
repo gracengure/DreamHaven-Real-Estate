@@ -342,8 +342,8 @@
 }
 .property-specs {
   object-fit: contain;
-  width: 300px; /* Increased width */
-  height: 380px; /* Increased height */
+  width: 300px; 
+  height: 410px; 
   border: 1px solid grey;
   border-radius: 10px;
   position: relative;

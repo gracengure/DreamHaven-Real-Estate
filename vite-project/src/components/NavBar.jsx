@@ -1,17 +1,18 @@
+import Logo from "../assets/IMG_20240507_135149.jpg";// Importing the logo image from assets folder
 
+import { FaCaretDown } from 'react-icons/fa';// Importing the FaCaretDown icon from react-icons library
+import React, { useState } from 'react'// Importing React and useState hook from React library
 
-import Logo from "../assets/IMG_20240507_135149.jpg";
-import { FaCaretDown } from 'react-icons/fa';
-import React, { useState } from 'react'
-
-
+// Function component NavBar
 function NavBar() {
+ // Using the useState hook to create a state variable isDropdownOpen, initialized with false
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
- 
+ // Function to toggle the dropdown state
   function toggleDropdown  () {
-    setIsDropdownOpen(!isDropdownOpen);
+    setIsDropdownOpen(!isDropdownOpen);// Inverting the value of isDropdownOpen
   };
+  // Rendering the JSX for NavBar
   return (
     <div className="nav-bar">
       <img src={Logo} alt="logo" className="logo-img" />
@@ -42,4 +43,5 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavBar;// Exporting the NavBar component
+
