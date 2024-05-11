@@ -5,7 +5,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import PropertySpecs from './components/PropertySpecs.jsx';
 
 
-
 const router = createBrowserRouter([
   {
     path: "*",
