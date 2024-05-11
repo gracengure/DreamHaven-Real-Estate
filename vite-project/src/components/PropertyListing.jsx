@@ -1,6 +1,5 @@
-
-import React from "react";// Importing React library
-import { Link } from "react-router-dom";// Importing Link component from react-router-dom
+import React from "react"; // Importing React library
+import { Link } from "react-router-dom"; // Importing Link component from react-router-dom
 
 // Function component PropertyListing
 function PropertyListing({ properties, onDelete }) {
@@ -8,13 +7,13 @@ function PropertyListing({ properties, onDelete }) {
   if (!properties || properties.length === 0) {
     return <div>Loading ...</div>;
   }
-// Array of property categories
+  // Array of property categories
   const categories = ["Apartments", "Villas", "Condos", "Commercials"];
   // Function to handle property deletion
   const handleDelete = (id) => {
     onDelete(id);
   };
-// Rendering JSX for PropertyListing
+  // Rendering JSX for PropertyListing
   return (
     <div>
       {categories.map((category) => (
@@ -26,7 +25,6 @@ function PropertyListing({ properties, onDelete }) {
               <div key={property.id} className="card">
                 <h2 className="property-name">{property.name}</h2>
                 <Link to={`/properties/${property.id}`}>
-                
                   <img
                     src={property.image}
                     alt={property.name}
@@ -34,8 +32,6 @@ function PropertyListing({ properties, onDelete }) {
                   />
                 </Link>
                 <div className="property-details">
-                  
-
                   <p>Price: ${property.price}</p>
                   <p>Location: {property.location}</p>
                   <br />
@@ -54,4 +50,4 @@ function PropertyListing({ properties, onDelete }) {
   );
 }
 
-export default PropertyListing;// Exporting the PropertyListing component
+export default PropertyListing; // Exporting the PropertyListing component

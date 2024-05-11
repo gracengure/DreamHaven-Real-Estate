@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";// Importing React, useEffect, and useState from react library
+import React, { useEffect, useState } from "react"; // Importing React, useEffect, and useState from react library
 // Function component Testimonials
 function Testimonials({ testimonials }) {
   // State variable to store index of current testimonial being displayed
   const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
-   // State variable to store edited testimonial data
+  // State variable to store edited testimonial data
   const [editedTestimonial, setEditedTestimonial] = useState({
     name: "",
     text: "",
@@ -11,7 +11,7 @@ function Testimonials({ testimonials }) {
   });
   //Effect to update editedTestimonial when currentTestimonialIndex or testimonials change
   useEffect(() => {
-    setEditedTestimonial(testimonials[currentTestimonialIndex]);// Setting edited testimonial based on current index
+    setEditedTestimonial(testimonials[currentTestimonialIndex]); // Setting edited testimonial based on current index
   }, [currentTestimonialIndex, testimonials]);
   // Function to handle displaying the next testimonial
   const handleNext = () => {
@@ -19,7 +19,7 @@ function Testimonials({ testimonials }) {
       prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
     );
   };
-// Function to handle displaying the previous testimonial
+  // Function to handle displaying the previous testimonial
   const handlePrev = () => {
     setCurrentTestimonialIndex((prevIndex) =>
       prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1
@@ -35,16 +35,16 @@ function Testimonials({ testimonials }) {
   };
   // Function to handle updating testimonial data
   const handleUpdate = (e) => {
-    e.preventDefault();// Preventing default form submission behavior
+    e.preventDefault(); // Preventing default form submission behavior
     const updatedTestimonials = testimonials.map((testimonial, index) => {
       if (index === currentTestimonialIndex) {
-        return editedTestimonial;// Updating the edited testimonial
+        return editedTestimonial; // Updating the edited testimonial
       }
       return testimonial;
     });
-    console.log(updatedTestimonials);// Logging updated testimonials to console
+    console.log(updatedTestimonials); // Logging updated testimonials to console
   };
-// Rendering JSX for Testimonials component
+  // Rendering JSX for Testimonials component
   return (
     <div className="testimonials">
       <h2 id="testimonials">Testimonials </h2>
@@ -63,23 +63,23 @@ function Testimonials({ testimonials }) {
               className="name-update"
               type="text"
               name="name"
-              value={editedTestimonial.name}// Input value bound to edited testimonial name
-              onChange={handleInputChange}// Handling input change
-              />
-            
+              value={editedTestimonial.name} // Input value bound to edited testimonial name
+              onChange={handleInputChange} // Handling input change
+            />
+
             <input
               className="text-update"
               type="text"
               name="text"
-              value={editedTestimonial.text}// Input value bound to edited testimonial text
-              onChange={handleInputChange}// Handling input change
+              value={editedTestimonial.text} // Input value bound to edited testimonial text
+              onChange={handleInputChange} // Handling input change
             />
             <input
               className="image-update"
               type="text"
               name="image"
-              value={editedTestimonial.image}// Input value bound to edited testimonial image
-              onChange={handleInputChange}// Handling input change
+              value={editedTestimonial.image} // Input value bound to edited testimonial image
+              onChange={handleInputChange} // Handling input change
             />
             <button type="submit" className="edit-button">
               Edit
@@ -94,4 +94,4 @@ function Testimonials({ testimonials }) {
     </div>
   );
 }
-export default Testimonials;// Exporting the Testimonials component
+export default Testimonials; // Exporting the Testimonials component
