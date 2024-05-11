@@ -1,25 +1,22 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
-import './index.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import PropertySpecs from './components/PropertySpecs.jsx';
 
-
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import PropertySpecs from "./components/PropertySpecs.jsx";
 
 const router = createBrowserRouter([
   {
-    path: '*',
+    path: "*",
     element: <App />,
   },
   {
-    path: '/properties/:propertyId', 
+    path: "/properties/:propertyId",
     element: <PropertySpecs />,
-  }
+  },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router}>
     <App />
   </RouterProvider>

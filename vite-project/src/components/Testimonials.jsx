@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 
 function Testimonials({ testimonials }) {
   const [currentTestimonialIndex, setCurrentTestimonialIndex] = useState(0);
@@ -7,9 +8,11 @@ function Testimonials({ testimonials }) {
     text: "",
     image: "",
   });
+
   useEffect(() => {
     setEditedTestimonial(testimonials[currentTestimonialIndex]);
   }, [currentTestimonialIndex, testimonials]);
+
   const handleNext = () => {
     setCurrentTestimonialIndex((prevIndex) =>
       prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
@@ -21,6 +24,7 @@ function Testimonials({ testimonials }) {
       prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1
     );
   };
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setEditedTestimonial((prevState) => ({
@@ -28,6 +32,7 @@ function Testimonials({ testimonials }) {
       [name]: value,
     }));
   };
+
   const handleUpdate = (e) => {
     e.preventDefault();
     const updatedTestimonials = testimonials.map((testimonial, index) => {
@@ -41,7 +46,7 @@ function Testimonials({ testimonials }) {
 
   return (
     <div className="testimonials">
-      <h2 id="testimonials">Testimonials </h2>
+      <h2 id="testimonials">Testimonials</h2>
       <div className="testimonial-card">
         <div className="testimonial">
           <h3>Name: {editedTestimonial.name}</h3>
@@ -52,7 +57,7 @@ function Testimonials({ testimonials }) {
           />
           <p className="testimonial-text">{editedTestimonial.text}</p>
           <form onSubmit={handleUpdate} className="update-form">
-            <h2>Edit testimonials</h2>
+            <h2>Edit Testimonials</h2>
             <input
               className="name-update"
               type="text"
@@ -87,4 +92,15 @@ function Testimonials({ testimonials }) {
     </div>
   );
 }
+
+Testimonials.propTypes = {
+  testimonials: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      text: PropTypes.string.isRequired,
+      image: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+};
+
 export default Testimonials;

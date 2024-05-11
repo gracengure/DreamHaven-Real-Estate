@@ -1,8 +1,8 @@
-/* eslint-disable no-unused-vars */
-import React from "react";
+
 import Testimonials from "./Testimonials";
 
 function TestimonialsData() {
+  // Array containing testimonial data
   const testimonials = [
     {
       id: 1,
@@ -56,3 +56,4 @@ function TestimonialsData() {
 }
 
 export default TestimonialsData;
+
