@@ -1,28 +1,25 @@
 import PropTypes from 'prop-types'; // Import PropTypes from prop-types library
-import { useState } from "react"; // Importing React and useState from react library
+import { useState } from "react";
 
-// Function component SearchBar
 function SearchBar({ properties, setFilteredProperties }) {
-  // State variable to store city criteria
   const [cityCriteria, setCityCriteria] = useState("");
-  // Function to handle city input change
+
   const handleCityChange = (e) => {
-    setCityCriteria(e.target.value); // Updating city criteria based on input value
+    setCityCriteria(e.target.value);
   };
-  // Function to handle form submission
+
   const handleSubmit = (e) => {
-    e.preventDefault(); // Preventing default form submission behavior
-    // Filtering properties based on city criteria
+    e.preventDefault();
     const filteredProperties = properties.filter((property) => {
       const cityMatch =
         property.location.toLowerCase().includes(cityCriteria.toLowerCase()) ||
-        cityCriteria === ""; // Checking if city matches the criteria or if criteria
-      return cityMatch; // Returning whether the city matches the criteria
+        cityCriteria === "";
+      return cityMatch;
     });
-    console.log(filteredProperties); // Logging filtered properties to console
-    setFilteredProperties(filteredProperties); // Updating filtered properties state
+    console.log(filteredProperties);
+    setFilteredProperties(filteredProperties);
   };
-  // Rendering JSX for SearchBar
+
   return (
     <div className="search-container">
       <form onSubmit={handleSubmit}>
@@ -41,10 +38,10 @@ function SearchBar({ properties, setFilteredProperties }) {
   );
 }
 
-// Define propTypes for SearchBar component
+// PropTypes validation for properties and setFilteredProperties
 SearchBar.propTypes = {
   properties: PropTypes.array.isRequired,
   setFilteredProperties: PropTypes.func.isRequired,
 };
 
-export default SearchBar; // Exporting the SearchBar component
+export default SearchBar;

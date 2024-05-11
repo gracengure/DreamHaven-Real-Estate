@@ -1,7 +1,7 @@
 import Logo from "../assets/IMG_20240507_135149.jpg"; // Importing the logo image from assets folder
 
-import { FaCaretDown } from "react-icons/fa"; // Importing the FaCaretDown icon from react-icons library
-import  { useState } from "react"; // Importing React and useState hook from React library
+import { FaCaretDown } from 'react-icons/fa';// Importing the FaCaretDown icon from react-icons library
+import { useState } from 'react'// Importing React and useState hook from React library
 
 // Function component NavBar
 function NavBar() {
@@ -54,4 +54,5 @@ function NavBar() {
   );
 }
 
-export default NavBar; // Exporting the NavBar component
+export default NavBar;// Exporting the NavBar component
+

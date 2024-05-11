@@ -1,5 +1,7 @@
-import  { useState, useEffect } from "react"; // Importing React, useState, and useEffect from react library
-import { useParams } from "react-router-dom"; // Importing useParams hook from react-router-dom
+
+
+import  { useState, useEffect } from "react";// Importing React, useState, and useEffect from react library
+import {  useParams } from "react-router-dom";// Importing useParams hook from react-router-dom
 // Function component PropertySpecs
 function PropertySpecs() {
   const { propertyId } = useParams(); // Extracting propertyId from URL params
@@ -50,4 +52,4 @@ function PropertySpecs() {
   );
 }
 
-export default PropertySpecs; // Exporting the PropertySpecs component
+export default PropertySpecs;// Exporting the PropertySpecs component

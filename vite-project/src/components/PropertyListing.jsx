@@ -1,13 +1,14 @@
-import PropTypes from 'prop-types'; // Import PropTypes from prop-types library
-import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'; // Importing PropTypes for props validation
+import { Link } from 'react-router-dom'; // Importing Link component from react-router-dom
+
 // Function component PropertyListing
 function PropertyListing({ properties, onDelete }) {
-  // If properties are not available or empty, display "Loading ...
+  // If properties are not available or empty, display "Loading ..."
   if (!properties || properties.length === 0) {
     return <div>Loading ...</div>;
   }
   // Array of property categories
-  const categories = ["Apartments", "Villas", "Condos", "Commercials"];
+  const categories = ['Apartments', 'Villas', 'Condos', 'Commercials'];
   // Function to handle property deletion
   const handleDelete = (id) => {
     onDelete(id);
@@ -49,7 +50,7 @@ function PropertyListing({ properties, onDelete }) {
   );
 }
 
-// Define propTypes for PropertyListing component
+// Props validation using PropTypes
 PropertyListing.propTypes = {
   properties: PropTypes.arrayOf(
     PropTypes.shape({
@@ -58,7 +59,8 @@ PropertyListing.propTypes = {
       image: PropTypes.string.isRequired,
       price: PropTypes.number.isRequired,
       location: PropTypes.string.isRequired,
-      category: PropTypes.oneOf(["Apartments", "Villas", "Condos", "Commercials"]).isRequired,
+      category: PropTypes.oneOf(['Apartments', 'Villas', 'Condos', 'Commercials'])
+        .isRequired,
     })
   ).isRequired,
   onDelete: PropTypes.func.isRequired,

@@ -1,5 +1,5 @@
-import  { useState, useEffect } from "react"; // Importing necessary modules from React
-import { useNavigate } from "react-router-dom"; // Importing useNavigate hook from react-router-dom
+import  { useState, useEffect } from 'react'; // Importing necessary modules from React
+import { useNavigate } from 'react-router-dom'; // Importing useNavigate hook from react-router-dom
 
 function CreateProperty() {
   // CreateProperty functional component
@@ -210,3 +210,5 @@ function CreateProperty() {
 }
 
 export default CreateProperty; // Export CreateProperty component
+
+
