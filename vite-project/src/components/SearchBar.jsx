@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 
 function SearchBar({ properties, setFilteredProperties }) {
@@ -36,5 +37,3 @@ function SearchBar({ properties, setFilteredProperties }) {
     </div>
   );
 }
-
-export default SearchBar;

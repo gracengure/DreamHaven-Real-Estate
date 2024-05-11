@@ -1,136 +1,49 @@
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
-function PropertyListing({ properties }) {
+function PropertyListing({ properties, onDelete }) {
   if (!properties || properties.length === 0) {
     return <div>Loading ...</div>;
   }
-  
+
+  const categories = ["Apartments", "Villas", "Condos", "Commercials"];
+
+  const handleDelete = (id) => {
+    onDelete(id);
+  };
+
   return (
     <div>
-     <div id="apartment" className="container">
-  {properties.map((property) => {
-    if (property.category === 'Apartments') {
-      return (
-        <div key={property.id} className="card">
-          <Link to={`/property/${property.id}`} style={{ textDecoration: 'none', color: 'black'}}>
-          <h2 className="property-name">{property.name}</h2>
-          <div className="property-details">
-            <img
-              src={property.image}
-              alt={property.name}
-              className="property-img"
-            />
-            <p>{property.description}</p>
-            <p>
-              {property.bedrooms !== undefined ? 'Bedroom' : 'Floor'}:{' '}
-              {property.bedrooms !== undefined
-                ? property.bedrooms
-                : property.floor}
-            </p>
-            <p>Price: ${property.price}</p>
-            <p>Location: {property.location}</p>
-          </div>
-          </Link>
+      {categories.map((category) => (
+        <div key={category} className="container">
+          <h1 id={category} key={category}>{category}</h1>
+          {properties
+          .filter((property) => property.category === category)
+            .map((property) => (
+              <div key={property.id} className="card">
+                <h2 className="property-name">{property.name}</h2>
+                <Link to={`/properties/${property.id}`}> {/* Fixed Link component */}
+                  <img
+                    src={property.image}
+                    alt={property.name}
+                    className="property-img"
+                  />
+                </Link>
+                <div className="property-details">
+                  <p>Price: ${property.price}</p>
+                  <p>Location: {property.location}</p>
+                  <br />
+                  <button
+                    className="delete-btn"
+                    onClick={() => handleDelete(property.id)}
+                  >
+                    DELETE
+                  </button>
+                </div>
+              </div>
+            ))}
         </div>
-      );
-    } else {
-      return null; // Render nothing if the category is not 'Apartments'
-    }
-  })}
-</div>
-<div id="villa" className="container">
-  {properties.map((property) => {
-    if (property.category === 'Villas') {
-      return (
-        <div key={property.id} className="card">
-          <Link to={`/property/${property.id}`} style={{ textDecoration: 'none', color: 'black'}}>
-          <h2 className="property-name">{property.name}</h2>
-          <div className="property-details">
-            <img
-              src={property.image}
-              alt={property.name}
-              className="property-img"
-            />
-            <p>{property.description}</p>
-            <p>
-              {property.bedrooms !== undefined ? 'Bedroom' : 'Floor'}:{' '}
-              {property.bedrooms !== undefined
-                ? property.bedrooms
-                : property.floor}
-            </p>
-            <p>Price: ${property.price}</p>
-            <p>Location: {property.location}</p>
-          </div>
-          </Link>
-        </div>
-      );
-    } else {
-      return null; // Render nothing if the category is not 'Apartments'
-    }
-  })}
-</div>
-<div id="condo" className="container">
-  {properties.map((property) => {
-    if (property.category === 'Condos') {
-      return (
-        <div key={property.id} className="card">
-          <Link to={`/property/${property.id}`} style={{ textDecoration: 'none', color: 'black'}}>
-          <h2 className="property-name">{property.name}</h2>
-          <div className="property-details">
-            <img
-              src={property.image}
-              alt={property.name}
-              className="property-img"
-            />
-            <p>{property.description}</p>
-            <p>
-              {property.bedrooms !== undefined ? 'Bedroom' : 'Floor'}:{' '}
-              {property.bedrooms !== undefined
-                ? property.bedrooms
-                : property.floor}
-            </p>
-            <p>Price: ${property.price}</p>
-            <p>Location: {property.location}</p>
-          </div>
-          </Link>
-        </div>
-      );
-    } else {
-      return null; // Render nothing if the category is not 'Apartments'
-    }
-  })}
-</div>
-<div id="commercial" className="container">
-  {properties.map((property) => {
-    if (property.category === 'Commercials') {
-      return (
-        <div key={property.id} className="card">
-          <Link to={`/property/${property.id}`} style={{ textDecoration: 'none', color: 'black'}}>
-          <h2 className="property-name">{property.name}</h2>
-          <div className="property-details">
-            <img
-              src={property.image}
-              alt={property.name}
-              className="property-img"
-            />
-            <p>{property.description}</p>
-            <p>
-              {property.bedrooms !== undefined ? 'Bedroom' : 'Floor'}:{' '}
-              {property.bedrooms !== undefined
-                ? property.bedrooms
-                : property.floor}
-            </p>
-            <p>Price: ${property.price}</p>
-            <p>Location: {property.location}</p>
-          </div>
-          </Link>
-        </div>
-      );
-    } else {
-      return null; // Render nothing if the category is not 'Apartments'
-    }
-  })}
-</div>
+      ))}
     </div>
   );
 }

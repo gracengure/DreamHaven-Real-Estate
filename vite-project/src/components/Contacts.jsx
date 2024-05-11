@@ -1,6 +1,4 @@
-
 import { FaInstagramSquare } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 import { BiLogoTelegram } from "react-icons/bi";
 import { AiFillTikTok } from "react-icons/ai";
@@ -39,6 +37,7 @@ const Contact = () => {
             src={googleMapsSrc}
             style={{ border: 0 }}
             width="100%"
+            
             height="300" 
             allowFullScreen
             loading="lazy"
@@ -47,12 +46,18 @@ const Contact = () => {
 
         <h2>Follow Us</h2>
         <div className="social-media-links">
-        <FaInstagramSquare />
-        <FaSquareXTwitter />
-        <FaFacebookSquare />
-        <BiLogoTelegram />
-        <AiFillTikTok />
-
+            <a href="https://www.instagram.com/your_username" target="_blank" rel="noopener noreferrer">
+            <FaInstagramSquare />
+          </a>
+          <a href="https://www.facebook.com/your_username" target="_blank" rel="noopener noreferrer">
+            <FaFacebookSquare />
+          </a>
+          <a href="https://t.me/your_username" target="_blank" rel="noopener noreferrer">
+            <BiLogoTelegram />
+          </a>
+          <a href="https://www.tiktok.com/@your_username" target="_blank" rel="noopener noreferrer">
+            <AiFillTikTok />
+          </a>
         </div>
       </div>
     </div>
@@ -60,4 +65,3 @@ const Contact = () => {
 };
 
 export default Contact;
-

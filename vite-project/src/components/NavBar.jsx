@@ -1,5 +1,4 @@
-
-
+/* eslint-disable no-unused-vars */
 import Logo from "../assets/IMG_20240507_135149.jpg";
 import { FaCaretDown } from 'react-icons/fa';
 import React, { useState } from 'react'
@@ -11,7 +10,7 @@ function NavBar() {
  
   function toggleDropdown  () {
     setIsDropdownOpen(!isDropdownOpen);
-  };
+  }
   return (
     <div className="nav-bar">
       <img src={Logo} alt="logo" className="logo-img" />
@@ -25,10 +24,10 @@ function NavBar() {
     <FaCaretDown   onClick={toggleDropdown} />
     {isDropdownOpen && (
             <ul className="dropdown-content">
-              <li><a  href="#apartment">Apartments</a></li>
-              <li><a  href="#villa">Villas</a></li>
-              <li><a  href="#condo">Condos</a></li>
-              <li><a  href="#commercial">Commercials</a></li>
+              <li><a  href="#Apartments">Apartments</a></li>
+              <li><a  href="#Villas">Villas</a></li>
+              <li><a  href="#Condos">Condos</a></li>
+              <li><a  href="#Commercials">Commercials</a></li>
             </ul>
           )}
   </li>
