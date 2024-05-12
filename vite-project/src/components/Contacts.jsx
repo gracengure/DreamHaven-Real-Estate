@@ -2,7 +2,7 @@
 import { FaInstagramSquare } from "react-icons/fa";
 // Importing Facebook icon from react-icons/fa library
 import { FaFacebookSquare } from "react-icons/fa";
-
+//Import BiLogoTelegram icon from react-icons/ai library
 import { BiLogoTelegram } from "react-icons/bi";
 // Importing TikTok icon from react-icons/ai library
 import { AiFillTikTok } from "react-icons/ai";
