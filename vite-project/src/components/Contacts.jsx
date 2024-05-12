@@ -1,4 +1,4 @@
-
+//Importing Instagram icon from react-icons/fa library
 import { FaInstagramSquare } from "react-icons/fa";
 // Importing Facebook icon from react-icons/fa library
 import { FaFacebookSquare } from "react-icons/fa";
