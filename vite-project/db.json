@@ -1,6 +1,5 @@
-{
-<<<<<<< HEAD
-  "property": [
+ {
+ "property": [
     {
       "id": "1",
       "name": "Frontera Apartments",
@@ -310,9 +309,8 @@
       "category": "Commercials",
       "location": "Greece",
       "floor": "12th"
-    } 
-  ]
-=======
+    },
+  ],
   "posts": [
     {
       "id": 1,
@@ -330,5 +328,4 @@
   "profile": {
     "name": "typicode"
   }
->>>>>>> origin/main
 }
