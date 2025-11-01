@@ -21,7 +21,7 @@ function CreateProperty() {
     const fetchData = async () => {
       // Fetch function to get data from the backend
       try {
-        const response = await fetch("http://localhost:3000/properties"); // Fetch properties from backend
+        const response = await fetch("https://dreamhaven-real-estate-backend.onrender.com/properties"); // Fetch properties from backend
         if (!response.ok) {
           // Check if response is ok
           throw new Error("Failed to fetch properties"); // Throw an error if fetching fails
@@ -51,7 +51,7 @@ function CreateProperty() {
     };
 
     try {
-      const response = await fetch("http://localhost:3000/property", {
+      const response = await fetch("https://dreamhaven-real-estate-backend.onrender.com/property", {
         // Send POST request to create property
         method: "POST",
         headers: {

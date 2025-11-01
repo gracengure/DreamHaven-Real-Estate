@@ -6,7 +6,7 @@ function PropertySpecs() {
   const [property, setProperty] = useState(null); // State variable to store property details
   // Fetch property details when propertyId changes
   useEffect(() => {
-    fetch(`http://localhost:3000/property/${propertyId}`) // Fetching property data from server
+    fetch(`https://dreamhaven-real-estate-backend.onrender.com/property/${propertyId}`) // Fetching property data from server
       .then((response) => response.json()) // Parsing response as JSON
       .then((data) => setProperty(data)) // Setting property state with fetched data
       .catch(

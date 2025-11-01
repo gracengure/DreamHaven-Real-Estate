@@ -11,7 +11,7 @@ function HomePage() {
 
   useEffect(() => {
     // useEffect hook to fetch properties data when component mounts
-    fetch("http://localhost:3000/property") // Fetch properties data from backend
+    fetch("https://dreamhaven-real-estate-backend.onrender.com/property") // Fetch properties data from backend
       .then((response) => response.json()) // Parse response data to JSON
       .then((data) => {
         // Handle fetched data
@@ -27,7 +27,7 @@ function HomePage() {
 
   const handleDeleteProperty = (id) => {
     // Function to handle property deletion
-    fetch(`http://localhost:3000/property/${id}`, {
+    fetch(`https://dreamhaven-real-estate-backend.onrender.com/property/${id}`, {
       // Send DELETE request to delete property
       method: "DELETE", // Specify request method
     })
