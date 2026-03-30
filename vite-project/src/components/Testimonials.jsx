@@ -57,7 +57,7 @@ function Testimonials({ testimonials }) {
             alt={editedTestimonial.name}
           />
           <p className="testimonial-text">{editedTestimonial.text}</p>
-          <form onSubmit={handleUpdate} className="update-form">
+          {/* <form onSubmit={handleUpdate} className="update-form">
             <h2>Edit testimonials</h2>
             <input
               className="name-update"
@@ -84,7 +84,7 @@ function Testimonials({ testimonials }) {
             <button type="submit" className="edit-button">
               Edit
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
       <div className="testimonial-controls">

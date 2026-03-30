@@ -35,12 +35,12 @@ function PropertyListing({ properties, onDelete }) {
                   <p>Price: ${property.price}</p>
                   <p>Location: {property.location}</p>
                   <br />
-                  <button
+                  {/* <button
                     className="delete-btn"
                     onClick={() => handleDelete(property.id)}
                   >
                     DELETE
-                  </button>
+                  </button> */}
                 </div>
               </div>
             ))}

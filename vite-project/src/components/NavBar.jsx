@@ -47,7 +47,7 @@ function NavBar() {
         </li>
         <li>
           {" "}
-          <a href="#contact">Contacts </a>
+          <a href="#contact">Contacts Us</a>
         </li>
       </ul>
     </div>

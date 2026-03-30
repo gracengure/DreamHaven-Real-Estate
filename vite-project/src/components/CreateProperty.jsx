@@ -85,7 +85,7 @@ function CreateProperty() {
 
   return (
     <div>
-      <button
+      {/* <button
         onClick={() => setShowForm(!showForm)}
         style={{
           textAlign: "center",
@@ -173,7 +173,7 @@ function CreateProperty() {
             </form>
           </div>
         </div>
-      )}
+      )} */}
 
       {/* Display the added properties */}
       <div className="container">
